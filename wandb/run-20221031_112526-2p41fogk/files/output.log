@@ -1,0 +1,70 @@
+Overriding model.yaml nc=80 with nc=2
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1    755667  models.yolo.Detect                      [2, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+Model Summary: 369 layers, 21602739 parameters, 21602739 gradients, 50.4 GFLOPs
+Transferred 475/481 items from weights/yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/labelTxt.cache' images and labels... 254 found, 0 missing, 0 empty, 9 corrupted: 100% 254/254 [00:00<?, ?it/s]
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0003_11.jpg: ignoring corrupt image/label: negative label values [    -2.0578], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_11.jpg: ignoring corrupt image/label: negative label values [   -0.70665], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_12.jpg: ignoring corrupt image/label: negative label values [    -0.7056], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_22.jpg: ignoring corrupt image/label: negative label values [    -3.6634], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0021_21.jpg: ignoring corrupt image/label: negative label values [    -7.8452], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0022_22.jpg: ignoring corrupt image/label: negative label values [   -0.64979], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0055_21.jpg: ignoring corrupt image/label: negative label values [   -0.29858], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0056_22.jpg: ignoring corrupt image/label: negative label values [    -11.004], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0064_11.jpg: ignoring corrupt image/label: negative label values [    -1.9403], please check your dota format labels
+[34m[1mval: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/labelTxt.cache' images and labels... 10 found, 0 missing, 0 empty, 0 corrupted: 100% 10/10 [00:00<?, ?it/s]
+Plotting labels to runs/train/exp42/labels_xyls.jpg...
+[34m[1mAutoAnchor: [39m[22m2.06 anchors/target, 0.958 Best Possible Recall (BPR). Anchors are a poor fit to dataset ⚠️, attempting to improve...
+[34m[1mAutoAnchor: [39m[22mWARNING: Extremely small objects found. 439 of 13037 poly labels are < 5 pixels in size.
+[34m[1mAutoAnchor: [39m[22mRunning kmeans for 9 anchors on 13036 points...
+[34m[1mAutoAnchor: [39m[22mEvolving anchors with Genetic Algorithm: fitness = 0.8038: 100% 1000/1000 [00:00<00:00, 1273.77it/s]
+[34m[1mAutoAnchor: [39m[22mthr=0.25: 0.9998 best possible recall, 7.82 anchors past thr
+[34m[1mAutoAnchor: [39m[22mn=9, img_size=1024, metric_all=0.481/0.804-mean/best, past_thr=0.525-mean: 23,6, 44,7, 36,12, 68,7, 64,11, 103,11, 69,18, 132,16, 128,32
+[34m[1mAutoAnchor: [39m[22mNew anchors saved to model. Update model *.yaml to use these anchors in the future.
+Image sizes 1024 train, 1024 val
+Using 4 dataloader workers
+Logging results to [1mruns/train/exp42
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+     0/299     4.09G    0.1326    0.3466   0.03037    0.7849       342      1024:   5% 3/62 [00:07<02:20,  2.38s/it]
+Traceback (most recent call last):
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 651, in <module>
+    main(opt)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 548, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 338, in train
+    scaler.scale(loss).backward()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/autograd/__init__.py", line 156, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

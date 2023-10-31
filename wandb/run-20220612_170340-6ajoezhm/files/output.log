@@ -1,0 +1,109 @@
+Overriding model.yaml nc=16 with nc=2
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1    755667  models.yolo.Detect                      [2, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+Model Summary: 369 layers, 21602739 parameters, 21602739 gradients, 50.4 GFLOPs
+Transferred 475/481 items from /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/runs/train/yolov5m_finetune/weights/best.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/newdata/train/labelTxt.cache' images and labels... 319 found, 0 missing, 0 empty, 0 corrupted: 100% 319/319 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/newdata/val/labelTxt.cache' images and labels... 30 found, 0 missing, 0 empty, 0 corrupted: 100% 30/30 [00:00<?, ?it/s]
+Plotting labels to runs/train/exp15/labels_xyls.jpg...
+[34m[1mAutoAnchor: [39m[22m3.61 anchors/target, 1.000 Best Possible Recall (BPR). Current anchors are a good fit to dataset ✅
+Image sizes 1024 train, 1024 val
+Using 4 dataloader workers
+Logging results to [1mruns/train/exp15
+Starting training for 2 epochs...
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       0/1     4.06G   0.07837    0.0436   0.02172    0.6167         3      1024: 100% 80/80 [01:21<00:00,  1.02s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:03<00:00,  1.17it/s]
+                 all         30          0          0          0          0          0
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/1     4.06G   0.06211   0.03443   0.01721    0.5821         2      1024: 100% 80/80 [01:24<00:00,  1.05s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:01<00:00,  2.66it/s]
+                 all         30          0          0          0          0          0
+Optimizer stripped from runs/train/exp15/weights/last.pt, 44.0MB
+Optimizer stripped from runs/train/exp15/weights/best.pt, 44.0MB
+2 epochs completed in 0.049 hours.
+Validating runs/train/exp15/weights/best.pt...
+Fusing layers...
+Model Summary: 290 layers, 21584355 parameters, 0 gradients, 50.3 GFLOPs
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:01<00:00,  2.52it/s]
+                 all         30          0          0          0          0          0

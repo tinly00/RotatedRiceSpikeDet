@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 655, in <module>
+    main(opt)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 552, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 122, in train
+    model = Model(cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/models/yolo.py", line 104, in __init__
+    self.yaml = yaml.safe_load(f)  # model dict
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/__init__.py", line 162, in safe_load
+    return load(stream, SafeLoader)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/__init__.py", line 114, in load
+    return loader.get_single_data()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/composer.py", line 110, in compose_sequence_node
+    while not self.check_event(SequenceEndEvent):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/yaml/parser.py", line 484, in parse_flow_sequence_entry
+    "expected ',' or ']', but got %r" % token.id, token.start_mark)
+yaml.parser.ParserError: while parsing a flow sequence
+  in "models/yolov5m_cbam.yaml", line 15, column 3
+expected ',' or ']', but got '['
+  in "models/yolov5m_cbam.yaml", line 25, column 4

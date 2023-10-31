@@ -1,0 +1,606 @@
+2022-06-12 16:43:10,003 INFO    MainThread:25241 [internal.py:wandb_internal():93] W&B internal server running at pid: 25241, started at: 2022-06-12 16:43:10.003057
+2022-06-12 16:43:10,004 INFO    WriterThread:25241 [datastore.py:open_for_write():75] open: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/run-js9h82m8.wandb
+2022-06-12 16:43:10,006 DEBUG   SenderThread:25241 [sender.py:send():235] send: header
+2022-06-12 16:43:10,006 DEBUG   SenderThread:25241 [sender.py:send():235] send: run
+2022-06-12 16:43:10,013 INFO    SenderThread:25241 [sender.py:_maybe_setup_resume():493] checking resume status for None/YOLOv5/js9h82m8
+2022-06-12 16:43:10,583 INFO    SenderThread:25241 [dir_watcher.py:__init__():205] watching files in: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files
+2022-06-12 16:43:10,584 INFO    SenderThread:25241 [sender.py:_start_run_threads():815] run started: js9h82m8 with start time 1655023389
+2022-06-12 16:43:10,596 DEBUG   SenderThread:25241 [sender.py:send():235] send: summary
+2022-06-12 16:43:10,598 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 16:43:10,598 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: check_version
+2022-06-12 16:43:10,600 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: check_version
+2022-06-12 16:43:11,007 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: run_start
+2022-06-12 16:43:11,009 DEBUG   HandlerThread:25241 [meta.py:__init__():35] meta init
+2022-06-12 16:43:11,009 DEBUG   HandlerThread:25241 [meta.py:__init__():49] meta init done
+2022-06-12 16:43:11,009 DEBUG   HandlerThread:25241 [meta.py:probe():209] probe
+2022-06-12 16:43:11,017 DEBUG   HandlerThread:25241 [git.py:repo():29] git repository is invalid
+2022-06-12 16:43:11,017 DEBUG   HandlerThread:25241 [meta.py:_save_pip():53] save pip
+2022-06-12 16:43:11,017 DEBUG   HandlerThread:25241 [meta.py:_save_pip():67] save pip done
+2022-06-12 16:43:11,017 DEBUG   HandlerThread:25241 [meta.py:_save_conda():74] save conda
+2022-06-12 16:43:11,585 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/requirements.txt
+2022-06-12 16:43:11,585 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/conda-environment.yaml
+2022-06-12 16:43:11,586 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-summary.json
+2022-06-12 16:43:12,351 DEBUG   HandlerThread:25241 [meta.py:_save_conda():84] save conda done
+2022-06-12 16:43:12,351 DEBUG   HandlerThread:25241 [meta.py:probe():247] probe done
+2022-06-12 16:43:12,371 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:43:12,372 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-12 16:43:12,377 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:43:12,377 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:43:12,585 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/conda-environment.yaml
+2022-06-12 16:43:12,585 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-metadata.json
+2022-06-12 16:43:12,586 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:12,668 DEBUG   SenderThread:25241 [sender.py:send():235] send: telemetry
+2022-06-12 16:43:12,668 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:43:13,287 INFO    Thread-11 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2hvylhjy-wandb-metadata.json
+2022-06-12 16:43:16,588 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:20,590 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:22,591 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:24,593 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:26,595 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:28,597 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:29,541 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:43:29,542 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:43:30,599 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:32,602 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:34,604 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:36,606 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:38,608 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:39,201 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:43:40,611 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/config.yaml
+2022-06-12 16:43:42,613 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:44,616 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:44,799 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:43:44,800 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:43:46,618 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:52,625 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:43:56,630 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:00,060 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:44:00,060 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:44:00,635 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:02,636 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:04,639 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:08,643 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:09,431 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:44:12,648 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:14,650 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:15,298 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:44:15,298 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:44:16,652 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:18,654 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:20,656 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:22,659 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:26,663 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:30,594 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:44:30,595 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:44:30,668 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:32,670 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:34,673 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:36,675 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:38,677 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:39,611 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:44:40,679 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:42,402 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,402 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Labels_0_4b500e98d43555814946.jpg with policy now
+2022-06-12 16:44:42,405 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,406 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Labels_0_0e8a8e7d7e92bb9ee695.jpg with policy now
+2022-06-12 16:44:42,459 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,460 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_d7751ce4ef53711a4e6b.jpg with policy now
+2022-06-12 16:44:42,466 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,466 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_57f73b6918fb56b51990.jpg with policy now
+2022-06-12 16:44:42,471 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,471 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_c560f65a8407f55fe152.jpg with policy now
+2022-06-12 16:44:42,477 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,477 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_c12c72f95e5452c8c299.jpg with policy now
+2022-06-12 16:44:42,484 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,488 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_cfa62953009dc8819aa1.jpg with policy now
+2022-06-12 16:44:42,490 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,490 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_e2056d542968ae6bb0a4.jpg with policy now
+2022-06-12 16:44:42,508 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,509 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_f5fcd885ef5ccd2b2f3c.jpg with policy now
+2022-06-12 16:44:42,512 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,513 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Mosaics_0_7e73aad7772164ff384d.jpg with policy now
+2022-06-12 16:44:42,681 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:42,681 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Labels_0_0e8a8e7d7e92bb9ee695.jpg
+2022-06-12 16:44:42,681 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_d7751ce4ef53711a4e6b.jpg
+2022-06-12 16:44:42,681 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_f5fcd885ef5ccd2b2f3c.jpg
+2022-06-12 16:44:42,682 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_57f73b6918fb56b51990.jpg
+2022-06-12 16:44:42,682 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_cfa62953009dc8819aa1.jpg
+2022-06-12 16:44:42,682 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_c12c72f95e5452c8c299.jpg
+2022-06-12 16:44:42,682 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Labels_0_4b500e98d43555814946.jpg
+2022-06-12 16:44:42,682 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_e2056d542968ae6bb0a4.jpg
+2022-06-12 16:44:42,682 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_7e73aad7772164ff384d.jpg
+2022-06-12 16:44:42,683 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_c560f65a8407f55fe152.jpg
+2022-06-12 16:44:42,683 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images
+2022-06-12 16:44:42,683 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media
+2022-06-12 16:44:42,906 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,906 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_5f4ff95326d72d680d96.png with policy now
+2022-06-12 16:44:42,909 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,909 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_b8d141da2f99b5494720.boxes2D.json with policy now
+2022-06-12 16:44:42,910 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,917 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,917 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_3a5282c7113cb14b035d.png with policy now
+2022-06-12 16:44:42,927 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,927 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_1513fd335c01af016a1d.boxes2D.json with policy now
+2022-06-12 16:44:42,931 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,931 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,932 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_13b46639897ddccf41e6.png with policy now
+2022-06-12 16:44:42,932 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,933 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_bd4d47cc946718fe295d.boxes2D.json with policy now
+2022-06-12 16:44:42,934 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,940 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,940 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_670349dff659451d7229.png with policy now
+2022-06-12 16:44:42,942 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,942 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_7d16141ed691b50dbf35.boxes2D.json with policy now
+2022-06-12 16:44:42,944 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,949 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,949 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_6d6891b1280a582062df.png with policy now
+2022-06-12 16:44:42,951 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,951 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_6536aa4d7410328168f3.boxes2D.json with policy now
+2022-06-12 16:44:42,953 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,957 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,957 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_d9762826e5d403a01ba7.png with policy now
+2022-06-12 16:44:42,975 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,975 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_1eb3535a0c0de4fade03.boxes2D.json with policy now
+2022-06-12 16:44:42,978 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,986 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,986 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_0fcbfa80d167e760d9a5.png with policy now
+2022-06-12 16:44:42,987 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,987 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_0d2c42773d6e890619d5.boxes2D.json with policy now
+2022-06-12 16:44:42,989 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:42,995 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:42,999 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_188cd181fcdb37de1005.png with policy now
+2022-06-12 16:44:43,000 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,000 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_29fea94baef7996c0168.boxes2D.json with policy now
+2022-06-12 16:44:43,005 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,013 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,014 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_3cbfcd227e5189d92135.png with policy now
+2022-06-12 16:44:43,015 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,015 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_550c3ec864f511bcb66d.boxes2D.json with policy now
+2022-06-12 16:44:43,023 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,024 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,024 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_81493324c3b917f77cfb.png with policy now
+2022-06-12 16:44:43,030 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,041 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_7928c628b56aa6e34c92.boxes2D.json with policy now
+2022-06-12 16:44:43,090 INFO    Thread-13 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/1y8wnzu0-media/images/Labels_0_0e8a8e7d7e92bb9ee695.jpg
+2022-06-12 16:44:43,201 INFO    Thread-12 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/g3078x47-media/images/Labels_0_4b500e98d43555814946.jpg
+2022-06-12 16:44:43,287 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,290 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,290 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_0476f2d7089035f39f85.png with policy now
+2022-06-12 16:44:43,293 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,304 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_d305780feaa2aa5f73ab.boxes2D.json with policy now
+2022-06-12 16:44:43,304 INFO    Thread-16 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/23f3thgh-media/images/Mosaics_0_c560f65a8407f55fe152.jpg
+2022-06-12 16:44:43,314 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,315 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,315 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_1b313b43d00d55dd6833.png with policy now
+2022-06-12 16:44:43,323 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,323 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_0e5a86abc15c75172b2d.boxes2D.json with policy now
+2022-06-12 16:44:43,327 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,329 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,343 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_889e3824d00db04db521.png with policy now
+2022-06-12 16:44:43,363 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,365 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_d99945343c950b46ee87.boxes2D.json with policy now
+2022-06-12 16:44:43,388 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,389 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,389 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_f1b99d99b633ddc56851.png with policy now
+2022-06-12 16:44:43,402 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,402 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_1f59713cf3785a13aa72.boxes2D.json with policy now
+2022-06-12 16:44:43,402 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,403 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,403 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_840cc8d0f717e8e4270e.png with policy now
+2022-06-12 16:44:43,406 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,406 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_66d2027dbda391b4b027.boxes2D.json with policy now
+2022-06-12 16:44:43,407 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,407 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,407 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_0_9fed6acf19df2b1c0bd6.png with policy now
+2022-06-12 16:44:43,408 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:44:43,408 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_185a7714a59925211965.boxes2D.json with policy now
+2022-06-12 16:44:43,408 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:44:43,467 INFO    Thread-17 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/t09nv1vz-media/images/Mosaics_0_c12c72f95e5452c8c299.jpg
+2022-06-12 16:44:43,546 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-12 16:44:43,548 DEBUG   SenderThread:25241 [sender.py:send():235] send: history
+2022-06-12 16:44:43,549 DEBUG   SenderThread:25241 [sender.py:send():235] send: summary
+2022-06-12 16:44:43,549 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 16:44:43,686 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-summary.json
+2022-06-12 16:44:43,686 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_7928c628b56aa6e34c92.boxes2D.json
+2022-06-12 16:44:43,686 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_5f4ff95326d72d680d96.png
+2022-06-12 16:44:43,686 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_3a5282c7113cb14b035d.png
+2022-06-12 16:44:43,687 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_889e3824d00db04db521.png
+2022-06-12 16:44:43,687 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_81493324c3b917f77cfb.png
+2022-06-12 16:44:43,687 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_0476f2d7089035f39f85.png
+2022-06-12 16:44:43,688 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_13b46639897ddccf41e6.png
+2022-06-12 16:44:43,688 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_bd4d47cc946718fe295d.boxes2D.json
+2022-06-12 16:44:43,688 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_0fcbfa80d167e760d9a5.png
+2022-06-12 16:44:43,688 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_1b313b43d00d55dd6833.png
+2022-06-12 16:44:43,688 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_6536aa4d7410328168f3.boxes2D.json
+2022-06-12 16:44:43,689 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_f1b99d99b633ddc56851.png
+2022-06-12 16:44:43,689 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_d305780feaa2aa5f73ab.boxes2D.json
+2022-06-12 16:44:43,689 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_d9762826e5d403a01ba7.png
+2022-06-12 16:44:43,689 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_0d2c42773d6e890619d5.boxes2D.json
+2022-06-12 16:44:43,690 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_d99945343c950b46ee87.boxes2D.json
+2022-06-12 16:44:43,690 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_29fea94baef7996c0168.boxes2D.json
+2022-06-12 16:44:43,690 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_1eb3535a0c0de4fade03.boxes2D.json
+2022-06-12 16:44:43,690 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_66d2027dbda391b4b027.boxes2D.json
+2022-06-12 16:44:43,690 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_185a7714a59925211965.boxes2D.json
+2022-06-12 16:44:43,691 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_550c3ec864f511bcb66d.boxes2D.json
+2022-06-12 16:44:43,691 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_6d6891b1280a582062df.png
+2022-06-12 16:44:43,692 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_1513fd335c01af016a1d.boxes2D.json
+2022-06-12 16:44:43,692 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_9fed6acf19df2b1c0bd6.png
+2022-06-12 16:44:43,692 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_7d16141ed691b50dbf35.boxes2D.json
+2022-06-12 16:44:43,692 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_840cc8d0f717e8e4270e.png
+2022-06-12 16:44:43,693 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_b8d141da2f99b5494720.boxes2D.json
+2022-06-12 16:44:43,693 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_0e5a86abc15c75172b2d.boxes2D.json
+2022-06-12 16:44:43,693 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_3cbfcd227e5189d92135.png
+2022-06-12 16:44:43,693 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_188cd181fcdb37de1005.png
+2022-06-12 16:44:43,693 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_1f59713cf3785a13aa72.boxes2D.json
+2022-06-12 16:44:43,694 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_670349dff659451d7229.png
+2022-06-12 16:44:43,694 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images
+2022-06-12 16:44:43,694 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media
+2022-06-12 16:44:43,694 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D
+2022-06-12 16:44:43,694 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata
+2022-06-12 16:44:43,911 INFO    Thread-23 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2xnwizbn-media/metadata/boxes2D/BoundingBoxDebugger_0_b8d141da2f99b5494720.boxes2D.json
+2022-06-12 16:44:43,981 INFO    Thread-39 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2gww9lwp-media/metadata/boxes2D/BoundingBoxDebugger_0_550c3ec864f511bcb66d.boxes2D.json
+2022-06-12 16:44:44,149 INFO    Thread-37 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/772ys15l-media/metadata/boxes2D/BoundingBoxDebugger_0_29fea94baef7996c0168.boxes2D.json
+2022-06-12 16:44:44,327 INFO    Thread-25 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/3h5qeoj0-media/metadata/boxes2D/BoundingBoxDebugger_0_1513fd335c01af016a1d.boxes2D.json
+2022-06-12 16:44:44,441 INFO    Thread-41 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/3dp4is0h-media/metadata/boxes2D/BoundingBoxDebugger_0_7928c628b56aa6e34c92.boxes2D.json
+2022-06-12 16:44:44,481 INFO    Thread-19 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/32cz7w4i-media/images/Mosaics_0_e2056d542968ae6bb0a4.jpg
+2022-06-12 16:44:44,725 INFO    Thread-45 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2h7o3tzn-media/metadata/boxes2D/BoundingBoxDebugger_0_0e5a86abc15c75172b2d.boxes2D.json
+2022-06-12 16:44:44,748 INFO    Thread-43 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2mvioy8g-media/metadata/boxes2D/BoundingBoxDebugger_0_d305780feaa2aa5f73ab.boxes2D.json
+2022-06-12 16:44:44,949 INFO    Thread-47 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2p6nunnj-media/metadata/boxes2D/BoundingBoxDebugger_0_d99945343c950b46ee87.boxes2D.json
+2022-06-12 16:44:45,132 INFO    Thread-35 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/wbmdoucm-media/metadata/boxes2D/BoundingBoxDebugger_0_0d2c42773d6e890619d5.boxes2D.json
+2022-06-12 16:44:45,172 INFO    Thread-31 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/3nqedtke-media/metadata/boxes2D/BoundingBoxDebugger_0_6536aa4d7410328168f3.boxes2D.json
+2022-06-12 16:44:45,586 INFO    Thread-49 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2k78ql05-media/metadata/boxes2D/BoundingBoxDebugger_0_1f59713cf3785a13aa72.boxes2D.json
+2022-06-12 16:44:45,841 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:44:45,841 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:44:45,975 INFO    Thread-53 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/1b5evf2s-media/metadata/boxes2D/BoundingBoxDebugger_0_185a7714a59925211965.boxes2D.json
+2022-06-12 16:44:46,415 INFO    Thread-29 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2c4pkn3c-media/metadata/boxes2D/BoundingBoxDebugger_0_7d16141ed691b50dbf35.boxes2D.json
+2022-06-12 16:44:46,468 INFO    Thread-51 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2tmxngfh-media/metadata/boxes2D/BoundingBoxDebugger_0_66d2027dbda391b4b027.boxes2D.json
+2022-06-12 16:44:46,666 INFO    Thread-27 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/11msr4w2-media/metadata/boxes2D/BoundingBoxDebugger_0_bd4d47cc946718fe295d.boxes2D.json
+2022-06-12 16:44:46,708 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:47,231 INFO    Thread-14 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/hpers1na-media/images/Mosaics_0_d7751ce4ef53711a4e6b.jpg
+2022-06-12 16:44:47,577 INFO    Thread-38 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2jgndcvs-media/images/BoundingBoxDebugger_0_3cbfcd227e5189d92135.png
+2022-06-12 16:44:48,718 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:49,376 INFO    Thread-24 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/le8ky2gw-media/images/BoundingBoxDebugger_0_3a5282c7113cb14b035d.png
+2022-06-12 16:44:49,437 INFO    Thread-15 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/vlarq25q-media/images/Mosaics_0_57f73b6918fb56b51990.jpg
+2022-06-12 16:44:49,501 INFO    Thread-26 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/c4dk7ac8-media/images/BoundingBoxDebugger_0_13b46639897ddccf41e6.png
+2022-06-12 16:44:50,522 INFO    Thread-28 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/u45sqlta-media/images/BoundingBoxDebugger_0_670349dff659451d7229.png
+2022-06-12 16:44:50,585 INFO    Thread-48 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/15ws9o2w-media/images/BoundingBoxDebugger_0_f1b99d99b633ddc56851.png
+2022-06-12 16:44:50,642 INFO    Thread-36 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/4uqoedpd-media/images/BoundingBoxDebugger_0_188cd181fcdb37de1005.png
+2022-06-12 16:44:50,727 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:50,799 INFO    Thread-33 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/21hqcifb-media/metadata/boxes2D/BoundingBoxDebugger_0_1eb3535a0c0de4fade03.boxes2D.json
+2022-06-12 16:44:51,392 INFO    Thread-44 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/ef9sflpr-media/images/BoundingBoxDebugger_0_1b313b43d00d55dd6833.png
+2022-06-12 16:44:51,704 INFO    Thread-34 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2pnll4nr-media/images/BoundingBoxDebugger_0_0fcbfa80d167e760d9a5.png
+2022-06-12 16:44:51,848 INFO    Thread-20 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/11ja8yss-media/images/Mosaics_0_f5fcd885ef5ccd2b2f3c.jpg
+2022-06-12 16:44:52,021 INFO    Thread-50 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/15n8iuka-media/images/BoundingBoxDebugger_0_840cc8d0f717e8e4270e.png
+2022-06-12 16:44:52,095 INFO    Thread-42 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/13ais39d-media/images/BoundingBoxDebugger_0_0476f2d7089035f39f85.png
+2022-06-12 16:44:52,438 INFO    Thread-30 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/3ns4ohga-media/images/BoundingBoxDebugger_0_6d6891b1280a582062df.png
+2022-06-12 16:44:52,515 INFO    Thread-32 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/126a318w-media/images/BoundingBoxDebugger_0_d9762826e5d403a01ba7.png
+2022-06-12 16:44:52,734 INFO    Thread-46 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/33jx4f6h-media/images/BoundingBoxDebugger_0_889e3824d00db04db521.png
+2022-06-12 16:44:52,740 INFO    Thread-18 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/13xl6cba-media/images/Mosaics_0_cfa62953009dc8819aa1.jpg
+2022-06-12 16:44:53,065 INFO    Thread-40 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/1my7i624-media/images/BoundingBoxDebugger_0_81493324c3b917f77cfb.png
+2022-06-12 16:44:53,189 INFO    Thread-21 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/37nrazfo-media/images/Mosaics_0_7e73aad7772164ff384d.jpg
+2022-06-12 16:44:53,235 INFO    Thread-22 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/21aig6by-media/images/BoundingBoxDebugger_0_5f4ff95326d72d680d96.png
+2022-06-12 16:44:53,394 INFO    Thread-52 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/viyy2lv7-media/images/BoundingBoxDebugger_0_9fed6acf19df2b1c0bd6.png
+2022-06-12 16:44:54,746 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:44:56,754 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:00,772 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:01,085 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:45:01,086 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:45:04,789 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:06,797 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:08,806 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:09,813 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:45:12,826 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/config.yaml
+2022-06-12 16:45:12,827 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:14,835 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:16,341 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:45:16,341 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:45:16,844 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:20,862 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:22,870 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:24,879 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:26,888 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:30,906 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:31,626 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:45:31,626 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:45:38,941 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:39,998 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:45:42,957 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:46,922 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:45:46,923 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:45:46,973 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:48,981 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:50,990 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:55,008 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:57,017 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:45:59,025 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:02,172 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:46:02,173 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:46:03,043 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:07,062 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:09,071 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:10,210 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:46:10,857 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,857 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_1_d9762826e5d403a01ba7.png with policy now
+2022-06-12 16:46:10,858 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,858 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_d97f1368a31272cc356a.boxes2D.json with policy now
+2022-06-12 16:46:10,859 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:46:10,870 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,875 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_1_889e3824d00db04db521.png with policy now
+2022-06-12 16:46:10,876 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,876 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_750d155aa758d3ccee4e.boxes2D.json with policy now
+2022-06-12 16:46:10,878 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:46:10,896 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,897 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_1_2b62adcd6eaf551363f9.png with policy now
+2022-06-12 16:46:10,902 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,903 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_d54be620102e68480ffe.boxes2D.json with policy now
+2022-06-12 16:46:10,904 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:46:10,904 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:10,905 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_1_5fdd912a748e36ac335b.png with policy now
+2022-06-12 16:46:11,041 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:11,042 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_21c8205580707f52747b.boxes2D.json with policy now
+2022-06-12 16:46:11,050 DEBUG   SenderThread:25241 [sender.py:send():235] send: config
+2022-06-12 16:46:11,079 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:11,080 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_21c8205580707f52747b.boxes2D.json
+2022-06-12 16:46:11,080 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_d97f1368a31272cc356a.boxes2D.json
+2022-06-12 16:46:11,081 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_5fdd912a748e36ac335b.png
+2022-06-12 16:46:11,081 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_d9762826e5d403a01ba7.png
+2022-06-12 16:46:11,081 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_750d155aa758d3ccee4e.boxes2D.json
+2022-06-12 16:46:11,081 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_889e3824d00db04db521.png
+2022-06-12 16:46:11,082 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_d54be620102e68480ffe.boxes2D.json
+2022-06-12 16:46:11,082 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_2b62adcd6eaf551363f9.png
+2022-06-12 16:46:11,082 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images
+2022-06-12 16:46:11,082 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D
+2022-06-12 16:46:11,100 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-12 16:46:11,101 DEBUG   SenderThread:25241 [sender.py:send():235] send: history
+2022-06-12 16:46:11,101 DEBUG   SenderThread:25241 [sender.py:send():235] send: summary
+2022-06-12 16:46:11,102 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 16:46:11,762 INFO    Thread-61 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/39c2tdxa-media/metadata/boxes2D/BoundingBoxDebugger_1_21c8205580707f52747b.boxes2D.json
+2022-06-12 16:46:11,764 INFO    Thread-59 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/26cle707-media/metadata/boxes2D/BoundingBoxDebugger_1_d54be620102e68480ffe.boxes2D.json
+2022-06-12 16:46:11,768 INFO    Thread-55 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/jh7eofnk-media/metadata/boxes2D/BoundingBoxDebugger_1_d97f1368a31272cc356a.boxes2D.json
+2022-06-12 16:46:11,832 INFO    Thread-54 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/293onvdr-media/images/BoundingBoxDebugger_1_d9762826e5d403a01ba7.png
+2022-06-12 16:46:11,910 INFO    Thread-57 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/1nap20fi-media/metadata/boxes2D/BoundingBoxDebugger_1_750d155aa758d3ccee4e.boxes2D.json
+2022-06-12 16:46:12,088 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-summary.json
+2022-06-12 16:46:13,098 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:13,102 INFO    Thread-58 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/3cn7wrwa-media/images/BoundingBoxDebugger_1_2b62adcd6eaf551363f9.png
+2022-06-12 16:46:13,384 INFO    Thread-56 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/22tyl208-media/images/BoundingBoxDebugger_1_889e3824d00db04db521.png
+2022-06-12 16:46:13,410 INFO    Thread-60 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2cqq0p7g-media/images/BoundingBoxDebugger_1_5fdd912a748e36ac335b.png
+2022-06-12 16:46:15,108 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/config.yaml
+2022-06-12 16:46:15,108 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:17,118 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:17,574 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 16:46:17,574 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 16:46:18,256 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: log_artifact
+2022-06-12 16:46:18,257 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: log_artifact
+2022-06-12 16:46:18,451 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-12 16:46:19,149 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_ec0cd21367ffdde14ecd.jpg
+2022-06-12 16:46:19,151 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Results_2_05100cfc3ec7a867ae06.png
+2022-06-12 16:46:19,152 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_873f0d1e7a268ae57a64.jpg
+2022-06-12 16:46:19,153 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_9b789879fe3983eade57.jpg
+2022-06-12 16:46:19,154 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_f951611eb4f4c20ab3b0.jpg
+2022-06-12 16:46:19,155 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_fdc4659509a76f7a2047.jpg
+2022-06-12 16:46:19,156 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Results_2_73d768add01f7b02bd78.png
+2022-06-12 16:46:19,156 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_dbe7c41f34f57ce7bd9a.jpg
+2022-06-12 16:46:19,157 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images
+2022-06-12 16:46:20,753 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:21,187 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:25,853 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:30,955 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:36,056 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:41,158 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:46,259 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:50,828 INFO    Thread-63 :25241 [upload_job.py:push():90] Uploaded file /home/scau/.cache/wandb/artifacts/obj/md5/7c/6cd10ad3c7bbffdb5e184336257122
+2022-06-12 16:46:51,361 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:52,142 INFO    SenderThread:25241 [sender.py:send_request_log_artifact():1006] logged artifact run_js9h82m8_model - {'id': 'QXJ0aWZhY3Q6MTQxNzcyNzk0', 'digest': '271a62df41bef89d8f5875315690f372', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIyMzg5NDk0', 'latestArtifact': None}, 'version': 'latest'}
+2022-06-12 16:46:52,143 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,144 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Validation_2_9b789879fe3983eade57.jpg with policy now
+2022-06-12 16:46:52,147 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,147 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Validation_2_ec0cd21367ffdde14ecd.jpg with policy now
+2022-06-12 16:46:52,149 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,149 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Validation_2_dbe7c41f34f57ce7bd9a.jpg with policy now
+2022-06-12 16:46:52,151 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,157 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Validation_2_fdc4659509a76f7a2047.jpg with policy now
+2022-06-12 16:46:52,164 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,164 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Validation_2_f951611eb4f4c20ab3b0.jpg with policy now
+2022-06-12 16:46:52,172 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,173 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Validation_2_873f0d1e7a268ae57a64.jpg with policy now
+2022-06-12 16:46:52,173 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,173 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Results_2_73d768add01f7b02bd78.png with policy now
+2022-06-12 16:46:52,175 DEBUG   SenderThread:25241 [sender.py:send():235] send: files
+2022-06-12 16:46:52,175 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file media/images/Results_2_05100cfc3ec7a867ae06.png with policy now
+2022-06-12 16:46:52,176 DEBUG   SenderThread:25241 [sender.py:send():235] send: history
+2022-06-12 16:46:52,176 DEBUG   SenderThread:25241 [sender.py:send():235] send: summary
+2022-06-12 16:46:52,178 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 16:46:52,178 DEBUG   SenderThread:25241 [sender.py:send():235] send: telemetry
+2022-06-12 16:46:52,178 DEBUG   SenderThread:25241 [sender.py:send():235] send: telemetry
+2022-06-12 16:46:52,178 DEBUG   SenderThread:25241 [sender.py:send():235] send: exit
+2022-06-12 16:46:52,178 INFO    SenderThread:25241 [sender.py:send_exit():371] handling exit code: 0
+2022-06-12 16:46:52,178 INFO    SenderThread:25241 [sender.py:send_exit():373] handling runtime: 189
+2022-06-12 16:46:52,181 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 16:46:52,181 INFO    SenderThread:25241 [sender.py:send_exit():379] send defer
+2022-06-12 16:46:52,181 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,181 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,181 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,181 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,182 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,182 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-12 16:46:52,182 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:46:52,182 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,183 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,183 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,185 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,185 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-12 16:46:52,185 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 1
+2022-06-12 16:46:52,186 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,186 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-12 16:46:52,251 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,252 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-12 16:46:52,252 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 2
+2022-06-12 16:46:52,252 DEBUG   SenderThread:25241 [sender.py:send():235] send: stats
+2022-06-12 16:46:52,253 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,253 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-12 16:46:52,253 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,253 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-12 16:46:52,253 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 3
+2022-06-12 16:46:52,253 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,253 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-12 16:46:52,254 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,254 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-12 16:46:52,254 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 4
+2022-06-12 16:46:52,254 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,254 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-12 16:46:52,254 DEBUG   SenderThread:25241 [sender.py:send():235] send: summary
+2022-06-12 16:46:52,254 INFO    SenderThread:25241 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 16:46:52,255 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,255 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-12 16:46:52,255 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 5
+2022-06-12 16:46:52,255 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,255 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-12 16:46:52,255 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,255 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-12 16:46:52,286 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:52,595 INFO    Thread-7  :25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-summary.json
+2022-06-12 16:46:52,677 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 6
+2022-06-12 16:46:52,677 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:52,678 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:52,678 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-12 16:46:52,678 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:52,678 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-12 16:46:52,679 INFO    SenderThread:25241 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-06-12 16:46:52,779 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:52,899 INFO    Thread-71 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/6edbgmyf-media/images/Results_2_05100cfc3ec7a867ae06.png
+2022-06-12 16:46:52,934 INFO    Thread-65 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/1e9dhkhi-media/images/Validation_2_ec0cd21367ffdde14ecd.jpg
+2022-06-12 16:46:52,939 INFO    Thread-70 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/3n71mbrz-media/images/Results_2_73d768add01f7b02bd78.png
+2022-06-12 16:46:53,146 INFO    Thread-68 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/1zcjz8sy-media/images/Validation_2_f951611eb4f4c20ab3b0.jpg
+2022-06-12 16:46:53,155 INFO    Thread-69 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/2bons3e9-media/images/Validation_2_873f0d1e7a268ae57a64.jpg
+2022-06-12 16:46:53,358 INFO    Thread-64 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/20l1pte2-media/images/Validation_2_9b789879fe3983eade57.jpg
+2022-06-12 16:46:53,378 INFO    Thread-66 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/a9cxksn6-media/images/Validation_2_dbe7c41f34f57ce7bd9a.jpg
+2022-06-12 16:46:53,612 INFO    SenderThread:25241 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/config.yaml
+2022-06-12 16:46:53,612 INFO    SenderThread:25241 [dir_watcher.py:finish():366] scan: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files
+2022-06-12 16:46:53,612 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/conda-environment.yaml conda-environment.yaml
+2022-06-12 16:46:53,612 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/config.yaml config.yaml
+2022-06-12 16:46:53,612 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log output.log
+2022-06-12 16:46:53,616 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/requirements.txt requirements.txt
+2022-06-12 16:46:53,618 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-metadata.json wandb-metadata.json
+2022-06-12 16:46:53,619 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-summary.json wandb-summary.json
+2022-06-12 16:46:53,623 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_d9762826e5d403a01ba7.png media/images/BoundingBoxDebugger_0_d9762826e5d403a01ba7.png
+2022-06-12 16:46:53,623 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_0476f2d7089035f39f85.png media/images/BoundingBoxDebugger_0_0476f2d7089035f39f85.png
+2022-06-12 16:46:53,623 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_0fcbfa80d167e760d9a5.png media/images/BoundingBoxDebugger_0_0fcbfa80d167e760d9a5.png
+2022-06-12 16:46:53,623 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_13b46639897ddccf41e6.png media/images/BoundingBoxDebugger_0_13b46639897ddccf41e6.png
+2022-06-12 16:46:53,623 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_188cd181fcdb37de1005.png media/images/BoundingBoxDebugger_0_188cd181fcdb37de1005.png
+2022-06-12 16:46:53,623 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_1b313b43d00d55dd6833.png media/images/BoundingBoxDebugger_0_1b313b43d00d55dd6833.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_3a5282c7113cb14b035d.png media/images/BoundingBoxDebugger_0_3a5282c7113cb14b035d.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_3cbfcd227e5189d92135.png media/images/BoundingBoxDebugger_0_3cbfcd227e5189d92135.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_5f4ff95326d72d680d96.png media/images/BoundingBoxDebugger_0_5f4ff95326d72d680d96.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_670349dff659451d7229.png media/images/BoundingBoxDebugger_0_670349dff659451d7229.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_6d6891b1280a582062df.png media/images/BoundingBoxDebugger_0_6d6891b1280a582062df.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_81493324c3b917f77cfb.png media/images/BoundingBoxDebugger_0_81493324c3b917f77cfb.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_840cc8d0f717e8e4270e.png media/images/BoundingBoxDebugger_0_840cc8d0f717e8e4270e.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_889e3824d00db04db521.png media/images/BoundingBoxDebugger_0_889e3824d00db04db521.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_9fed6acf19df2b1c0bd6.png media/images/BoundingBoxDebugger_0_9fed6acf19df2b1c0bd6.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_0_f1b99d99b633ddc56851.png media/images/BoundingBoxDebugger_0_f1b99d99b633ddc56851.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_2b62adcd6eaf551363f9.png media/images/BoundingBoxDebugger_1_2b62adcd6eaf551363f9.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_5fdd912a748e36ac335b.png media/images/BoundingBoxDebugger_1_5fdd912a748e36ac335b.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_889e3824d00db04db521.png media/images/BoundingBoxDebugger_1_889e3824d00db04db521.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/BoundingBoxDebugger_1_d9762826e5d403a01ba7.png media/images/BoundingBoxDebugger_1_d9762826e5d403a01ba7.png
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Labels_0_0e8a8e7d7e92bb9ee695.jpg media/images/Labels_0_0e8a8e7d7e92bb9ee695.jpg
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Labels_0_4b500e98d43555814946.jpg media/images/Labels_0_4b500e98d43555814946.jpg
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_57f73b6918fb56b51990.jpg media/images/Mosaics_0_57f73b6918fb56b51990.jpg
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_7e73aad7772164ff384d.jpg media/images/Mosaics_0_7e73aad7772164ff384d.jpg
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_c12c72f95e5452c8c299.jpg media/images/Mosaics_0_c12c72f95e5452c8c299.jpg
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_c560f65a8407f55fe152.jpg media/images/Mosaics_0_c560f65a8407f55fe152.jpg
+2022-06-12 16:46:53,624 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_cfa62953009dc8819aa1.jpg media/images/Mosaics_0_cfa62953009dc8819aa1.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_d7751ce4ef53711a4e6b.jpg media/images/Mosaics_0_d7751ce4ef53711a4e6b.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_e2056d542968ae6bb0a4.jpg media/images/Mosaics_0_e2056d542968ae6bb0a4.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Mosaics_0_f5fcd885ef5ccd2b2f3c.jpg media/images/Mosaics_0_f5fcd885ef5ccd2b2f3c.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Results_2_05100cfc3ec7a867ae06.png media/images/Results_2_05100cfc3ec7a867ae06.png
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Results_2_73d768add01f7b02bd78.png media/images/Results_2_73d768add01f7b02bd78.png
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_873f0d1e7a268ae57a64.jpg media/images/Validation_2_873f0d1e7a268ae57a64.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_9b789879fe3983eade57.jpg media/images/Validation_2_9b789879fe3983eade57.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_dbe7c41f34f57ce7bd9a.jpg media/images/Validation_2_dbe7c41f34f57ce7bd9a.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_ec0cd21367ffdde14ecd.jpg media/images/Validation_2_ec0cd21367ffdde14ecd.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_f951611eb4f4c20ab3b0.jpg media/images/Validation_2_f951611eb4f4c20ab3b0.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/images/Validation_2_fdc4659509a76f7a2047.jpg media/images/Validation_2_fdc4659509a76f7a2047.jpg
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_0d2c42773d6e890619d5.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_0d2c42773d6e890619d5.boxes2D.json
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_0e5a86abc15c75172b2d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_0e5a86abc15c75172b2d.boxes2D.json
+2022-06-12 16:46:53,625 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_1513fd335c01af016a1d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_1513fd335c01af016a1d.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_185a7714a59925211965.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_185a7714a59925211965.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_1eb3535a0c0de4fade03.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_1eb3535a0c0de4fade03.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_1f59713cf3785a13aa72.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_1f59713cf3785a13aa72.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_29fea94baef7996c0168.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_29fea94baef7996c0168.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_550c3ec864f511bcb66d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_550c3ec864f511bcb66d.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_6536aa4d7410328168f3.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_6536aa4d7410328168f3.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_66d2027dbda391b4b027.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_66d2027dbda391b4b027.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_7928c628b56aa6e34c92.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_7928c628b56aa6e34c92.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_7d16141ed691b50dbf35.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_7d16141ed691b50dbf35.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_b8d141da2f99b5494720.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_b8d141da2f99b5494720.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_bd4d47cc946718fe295d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_bd4d47cc946718fe295d.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_d305780feaa2aa5f73ab.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_d305780feaa2aa5f73ab.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_0_d99945343c950b46ee87.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_d99945343c950b46ee87.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_21c8205580707f52747b.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_21c8205580707f52747b.boxes2D.json
+2022-06-12 16:46:53,626 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_750d155aa758d3ccee4e.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_750d155aa758d3ccee4e.boxes2D.json
+2022-06-12 16:46:53,627 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_d54be620102e68480ffe.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_d54be620102e68480ffe.boxes2D.json
+2022-06-12 16:46:53,627 INFO    SenderThread:25241 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/media/metadata/boxes2D/BoundingBoxDebugger_1_d97f1368a31272cc356a.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_d97f1368a31272cc356a.boxes2D.json
+2022-06-12 16:46:53,627 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 7
+2022-06-12 16:46:53,627 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:53,627 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:53,627 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-12 16:46:53,627 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:53,628 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-12 16:46:53,628 INFO    SenderThread:25241 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-12 16:46:53,728 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:53,728 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:53,830 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:53,831 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:53,932 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:53,933 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:53,988 INFO    Thread-67 :25241 [upload_job.py:push():132] Uploaded file /tmp/tmpvmz_pp33wandb/g832v4rh-media/images/Validation_2_fdc4659509a76f7a2047.jpg
+2022-06-12 16:46:54,035 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,035 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,139 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,139 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,225 INFO    Thread-74 :25241 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/output.log
+2022-06-12 16:46:54,241 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,241 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,253 INFO    Thread-76 :25241 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/wandb-summary.json
+2022-06-12 16:46:54,298 INFO    Thread-75 :25241 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/requirements.txt
+2022-06-12 16:46:54,334 INFO    Thread-73 :25241 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/config.yaml
+2022-06-12 16:46:54,345 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,346 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,450 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,450 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,505 INFO    Thread-72 :25241 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/files/conda-environment.yaml
+2022-06-12 16:46:54,554 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,555 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,659 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:54,659 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:54,706 INFO    Thread-6  :25241 [sender.py:transition_state():392] send defer: 8
+2022-06-12 16:46:54,708 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:54,708 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-12 16:46:54,709 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:54,710 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-12 16:46:54,763 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:55,545 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 9
+2022-06-12 16:46:55,545 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:55,546 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:55,548 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-12 16:46:55,548 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:55,549 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-12 16:46:55,549 INFO    SenderThread:25241 [sender.py:transition_state():392] send defer: 10
+2022-06-12 16:46:55,551 DEBUG   SenderThread:25241 [sender.py:send():235] send: final
+2022-06-12 16:46:55,552 DEBUG   SenderThread:25241 [sender.py:send():235] send: footer
+2022-06-12 16:46:55,552 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 16:46:55,553 INFO    HandlerThread:25241 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-12 16:46:55,554 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: defer
+2022-06-12 16:46:55,555 INFO    SenderThread:25241 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-06-12 16:46:55,649 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 16:46:55,650 DEBUG   SenderThread:25241 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 16:46:55,651 INFO    SenderThread:25241 [file_pusher.py:join():150] waiting for file pusher
+2022-06-12 16:46:56,029 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-12 16:46:56,032 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-12 16:46:56,036 DEBUG   HandlerThread:25241 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-12 16:46:56,037 INFO    HandlerThread:25241 [handler.py:finish():806] shutting down handler
+2022-06-12 16:46:56,553 INFO    WriterThread:25241 [datastore.py:close():279] close: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_164309-js9h82m8/run-js9h82m8.wandb
+2022-06-12 16:46:56,926 INFO    SenderThread:25241 [sender.py:finish():1111] shutting down sender
+2022-06-12 16:46:56,927 INFO    SenderThread:25241 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-12 16:46:56,927 INFO    SenderThread:25241 [file_pusher.py:join():150] waiting for file pusher
+2022-06-12 16:46:56,929 INFO    MainThread:25241 [internal.py:handle_exit():80] Internal process exited

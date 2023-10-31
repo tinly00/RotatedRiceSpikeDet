@@ -1,0 +1,98 @@
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1    755667  models.yolo.Detect                      [2, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+Model Summary: 369 layers, 21602739 parameters, 21602739 gradients, 50.4 GFLOPs
+Transferred 481/481 items from /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/runs/train/exp40/weights/best.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/labelTxt.cache' images and labels... 254 found, 0 missing, 0 empty, 9 corrupted: 100% 254/254 [00:00<?, ?it/s]
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0003_11.jpg: ignoring corrupt image/label: negative label values [    -2.0578], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_11.jpg: ignoring corrupt image/label: negative label values [   -0.70665], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_12.jpg: ignoring corrupt image/label: negative label values [    -0.7056], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_22.jpg: ignoring corrupt image/label: negative label values [    -3.6634], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0021_21.jpg: ignoring corrupt image/label: negative label values [    -7.8452], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0022_22.jpg: ignoring corrupt image/label: negative label values [   -0.64979], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0055_21.jpg: ignoring corrupt image/label: negative label values [   -0.29858], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0056_22.jpg: ignoring corrupt image/label: negative label values [    -11.004], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0064_11.jpg: ignoring corrupt image/label: negative label values [    -1.9403], please check your dota format labels
+[34m[1mval: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/labelTxt.cache' images and labels... 10 found, 0 missing, 0 empty, 0 corrupted: 100% 10/10 [00:00<?, ?it/s]
+Plotting labels to runs/train/exp44/labels_xyls.jpg...
+[34m[1mAutoAnchor: [39m[22m7.81 anchors/target, 1.000 Best Possible Recall (BPR). Current anchors are a good fit to dataset ✅
+Image sizes 1024 train, 1024 val
+Using 4 dataloader workers
+Logging results to [1mruns/train/exp44
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     0/299     4.14G   0.05569    0.4101 5.754e-05    0.1057       158      1024: 100% 62/62 [00:31<00:00,  1.98it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 2/2 [00:00<00:00,  6.13it/s]
+                 all         10        479      0.887      0.871      0.907      0.528
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+     1/299     4.35G   0.05455    0.3778   5.3e-05    0.1046        97      1024: 100% 62/62 [00:22<00:00,  2.76it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 2/2 [00:00<00:00,  5.49it/s]
+                 all         10        479      0.882      0.872        0.9      0.536
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+     2/299     4.35G   0.05365    0.3638 5.008e-05    0.1029       208      1024:  19% 12/62 [00:04<00:20,  2.49it/s]
+Traceback (most recent call last):
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 654, in <module>
+    main(opt)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 551, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 342, in train
+    scaler.step(optimizer)  # optimizer.step
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/cuda/amp/grad_scaler.py", line 338, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/cuda/amp/grad_scaler.py", line 284, in _maybe_opt_step
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/cuda/amp/grad_scaler.py", line 284, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+KeyboardInterrupt

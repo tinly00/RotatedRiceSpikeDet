@@ -1,0 +1,112 @@
+Overriding model.yaml nc=80 with nc=2
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1    755667  models.yolo.Detect                      [2, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+Model Summary: 369 layers, 21602739 parameters, 21602739 gradients, 50.4 GFLOPs
+Transferred 475/481 items from weights/yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/labelTxt' images and labels...90 found, 0 missing, 0 empty, 29 corrupted: 100% 90/90 [00:01<00:00, 78.15it/s]
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0001_12.jpg: ignoring corrupt image/label: negative label values [    -1.2158     -3.0524     -14.462    -0.80508], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0001_22.jpg: ignoring corrupt image/label: negative label values [    -13.845], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0003_11.jpg: ignoring corrupt image/label: negative label values [    -5.6819    -0.43652], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0003_12.jpg: ignoring corrupt image/label: negative label values [   -0.55478     -2.1133], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0003_22.jpg: ignoring corrupt image/label: negative label values [   -0.37987], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0004_22.jpg: ignoring corrupt image/label: negative label values [    -13.224], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0005_11.jpg: ignoring corrupt image/label: negative label values [    -12.429     -3.1999], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0005_12.jpg: ignoring corrupt image/label: negative label values [    -3.3771    -0.41091], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0006_12.jpg: ignoring corrupt image/label: negative label values [    -2.2478      -1.224      -1.994], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0006_21.jpg: ignoring corrupt image/label: negative label values [    -17.254], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_11.jpg: ignoring corrupt image/label: negative label values [   -0.70665], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_12.jpg: ignoring corrupt image/label: negative label values [    -0.7056], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_21.jpg: ignoring corrupt image/label: negative label values [    -1.5019], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0007_22.jpg: ignoring corrupt image/label: negative label values [    -3.6634], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0008_12.jpg: ignoring corrupt image/label: negative label values [   -0.65558     -3.3448     -3.5028    -0.34676], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0009_12.jpg: ignoring corrupt image/label: negative label values [   -0.64137], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0011_21.jpg: ignoring corrupt image/label: negative label values [    -1.5571], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0011_22.jpg: ignoring corrupt image/label: negative label values [    -12.174], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0012_12.jpg: ignoring corrupt image/label: negative label values [   -0.98634    -0.53033     -2.9542], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0012_21.jpg: ignoring corrupt image/label: negative label values [   -0.81519], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0014_11.jpg: ignoring corrupt image/label: negative label values [    -1.0231], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0014_21.jpg: ignoring corrupt image/label: negative label values [   -0.19061], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0015_11.jpg: ignoring corrupt image/label: negative label values [   -0.76923    -0.62784], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0017_11.jpg: ignoring corrupt image/label: negative label values [    -2.2953], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0017_22.jpg: ignoring corrupt image/label: negative label values [    -0.9013], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0019_21.jpg: ignoring corrupt image/label: negative label values [    -5.1202], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0020_12.jpg: ignoring corrupt image/label: negative label values [    -1.2339], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0021_21.jpg: ignoring corrupt image/label: negative label values [    -7.8452], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/images/pic_DJI_0639_0022_22.jpg: ignoring corrupt image/label: negative label values [   -0.64979], please check your dota format labels
+[34m[1mtrain: [39m[22mNew cache created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/train/labelTxt.cache
+[34m[1mval: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/labelTxt' images and labels...10 found, 0 missing, 0 empty, 4 corrupted: 100% 10/10 [00:00<00:00, 18.90it/s]
+[34m[1mval: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/images/pic_DJI_0639_0001_11.jpg: ignoring corrupt image/label: negative label values [   -0.22406        -3.5], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/images/pic_DJI_0639_0003_21.jpg: ignoring corrupt image/label: negative label values [    -3.3977], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/images/pic_DJI_0639_0011_11.jpg: ignoring corrupt image/label: negative label values [   -0.71587], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/images/pic_DJI_0639_0016_11.jpg: ignoring corrupt image/label: negative label values [   -0.40556], please check your dota format labels
+[34m[1mval: [39m[22mNew cache created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/testspike/val/labelTxt.cache
+Plotting labels to runs/train/exp35/labels_xyls.jpg...
+[34m[1mAutoAnchor: [39m[22m2.07 anchors/target, 0.964 Best Possible Recall (BPR). Anchors are a poor fit to dataset ⚠️, attempting to improve...
+[34m[1mAutoAnchor: [39m[22mWARNING: Extremely small objects found. 68 of 2583 poly labels are < 5 pixels in size.
+[34m[1mAutoAnchor: [39m[22mRunning kmeans for 9 anchors on 2583 points...
+[34m[1mAutoAnchor: [39m[22mEvolving anchors with Genetic Algorithm: fitness = 0.8061: 100% 1000/1000 [00:00<00:00, 1632.92it/s]
+[34m[1mAutoAnchor: [39m[22mthr=0.25: 1.0000 best possible recall, 7.98 anchors past thr
+[34m[1mAutoAnchor: [39m[22mn=9, img_size=1024, metric_all=0.488/0.806-mean/best, past_thr=0.526-mean: 24,7, 48,7, 41,10, 74,8, 49,18, 71,14, 111,12, 133,16, 118,30
+[34m[1mAutoAnchor: [39m[22mNew anchors saved to model. Update model *.yaml to use these anchors in the future.
+Image sizes 1024 train, 1024 val
+Using 4 dataloader workers
+Logging results to [1mruns/train/exp35
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+     0/299     4.13G    0.1315    0.2929   0.02966    0.7846        27      1024: 100% 16/16 [00:13<00:00,  1.16it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 1/1 [00:00<00:00,  7.99it/s]
+                 all          6        288    0.00635     0.0556    0.00355   0.000516
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+     1/299     4.13G    0.1307    0.3303   0.02877    0.7757        56      1024: 100% 16/16 [00:05<00:00,  2.87it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 1/1 [00:00<00:00,  8.06it/s]
+                 all          6        288    0.00527     0.0417    0.00316   0.000449
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+     2/299     4.13G    0.1294    0.3187   0.02784    0.7662        60      1024: 100% 16/16 [00:05<00:00,  3.06it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 1/1 [00:00<00:00,  8.68it/s]
+                 all          6        288    0.00602     0.0417    0.00322   0.000693
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+Traceback (most recent call last):0.3527   0.02717    0.7592       207      1024:  56% 9/16 [00:03<00:02,  2.76it/s]
+Traceback (most recent call last):0.3527   0.02717    0.7592       207      1024:  56% 9/16 [00:03<00:02,  2.76it/s]
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 650, in <module>
+    main(opt)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 547, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 331, in train
+    loss, loss_items = compute_loss(pred, targets.to(device))  # loss scaled by batch_size
+KeyboardInterrupt

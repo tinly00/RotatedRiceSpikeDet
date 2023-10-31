@@ -1,0 +1,415 @@
+Overriding model.yaml nc=80 with nc=1
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1    751626  models.yolo.Detect                      [1, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+Model Summary: 369 layers, 21598698 parameters, 21598698 gradients, 50.4 GFLOPs
+Transferred 475/481 items from /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/newdata/train/labelTxt' images and labels...319 found, 0 missing, 0 empty, 0 corrupted: 100% 319/319 [00:00<00:00, 4455.44it/s]
+[34m[1mtrain: [39m[22mNew cache created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/newdata/train/labelTxt.cache
+[34m[1mval: [39m[22mScanning '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/newdata/val/labelTxt' images and labels...30 found, 0 missing, 0 empty, 0 corrupted: 100% 30/30 [00:00<00:00, 921.82it/s]
+[34m[1mval: [39m[22mNew cache created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/dataset/newdata/val/labelTxt.cache
+Plotting labels to runs/train/exp11/labels_xyls.jpg...
+[34m[1mAutoAnchor: [39m[22m3.61 anchors/target, 1.000 Best Possible Recall (BPR). Current anchors are a good fit to dataset ✅
+Image sizes 1024 train, 1024 val
+Using 4 dataloader workers
+Logging results to [1mruns/train/exp11
+Starting training for 10 epochs...
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       0/9     4.08G   0.08725   0.04862         0     13.89         8      1024: 100% 80/80 [01:35<00:00,  1.20s/it]
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:03<00:00,  1.21it/s]
+                 all         30         30     0.0312     0.0667      0.004   0.000534
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/9     4.15G   0.08036   0.02874         0       7.3        11      1024: 100% 80/80 [01:31<00:00,  1.15s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:01<00:00,  2.65it/s]
+                 all         30          0          0          0          0          0
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/9     4.15G   0.08781   0.01957         0     3.586         6      1024: 100% 80/80 [01:38<00:00,  1.23s/it]
+
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:05<00:00,  1.32s/it]
+                 all         30         30     0.0931      0.367     0.0534    0.00676
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/9     4.15G   0.09727   0.01314         0     1.534         6      1024: 100% 80/80 [01:29<00:00,  1.12s/it]
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:04<00:00,  1.19s/it]
+                 all         30         30    0.00168     0.0333   0.000355   5.56e-05
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/9     4.15G   0.09771   0.01014         0     1.121         4      1024: 100% 80/80 [01:46<00:00,  1.33s/it]
+
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:05<00:00,  1.26s/it]
+                 all         30         30     0.0791      0.367     0.0597    0.00863
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/9     4.15G    0.1004  0.009786         0    0.4678         3      1024: 100% 80/80 [01:45<00:00,  1.32s/it]
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:05<00:00,  1.26s/it]
+                 all         30         30      0.371      0.133      0.131     0.0277
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/9     4.15G    0.1008  0.008744         0    0.4877         2      1024: 100% 80/80 [01:41<00:00,  1.27s/it]
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:06<00:00,  1.61s/it]
+                 all         30         30      0.725      0.264      0.284     0.0727
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       7/9     4.15G   0.09555  0.009007         0     0.342         4      1024: 100% 80/80 [01:40<00:00,  1.25s/it]
+
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:05<00:00,  1.29s/it]
+                 all         30         30      0.436      0.267      0.258     0.0524
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       8/9     4.15G   0.09599  0.008653         0    0.3486         5      1024: 100% 80/80 [01:30<00:00,  1.14s/it]
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:03<00:00,  1.01it/s]
+                 all         30         30       0.17        0.3      0.162      0.049
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       9/9     4.15G   0.09818   0.00712         0     0.276         4      1024: 100% 80/80 [01:33<00:00,  1.17s/it]
+
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:04<00:00,  1.05s/it]
+                 all         30         30      0.415      0.167      0.132     0.0322
+Optimizer stripped from runs/train/exp11/weights/last.pt, 44.0MB
+10 epochs completed in 0.290 hours.
+Optimizer stripped from runs/train/exp11/weights/best.pt, 44.0MB
+Validating runs/train/exp11/weights/best.pt...
+Fusing layers...
+Model Summary: 290 layers, 21580314 parameters, 0 gradients, 50.3 GFLOPs
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95:  25% 1/4 [00:01<00:04,  1.36s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 4/4 [00:03<00:00,  1.08it/s]
+Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

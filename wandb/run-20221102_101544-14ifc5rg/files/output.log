@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 655, in <module>
+    main(opt)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 552, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 121, in train
+    ckpt = torch.load(weights, map_location=device)  # load checkpoint
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'weights/yolov5mtest.pt'

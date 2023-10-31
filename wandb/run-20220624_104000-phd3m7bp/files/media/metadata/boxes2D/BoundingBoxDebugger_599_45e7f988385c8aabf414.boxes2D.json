@@ -1,0 +1,1 @@
+{"box_data": [{"position": {"minX": 449.71820068359375, "minY": 198.06317138671875, "maxX": 767.2817993164062, "maxY": 383.93682861328125}, "class_id": 0, "box_caption": "rec 0.807", "scores": {"class_score": 0.806640625}, "domain": "pixel"}], "class_labels": {"0": "rec", "1": "none"}}

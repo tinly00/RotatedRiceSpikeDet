@@ -1,0 +1,49 @@
+
+Downloading https://github.com/ultralytics/yolov5/releases/download/v6.1/yolov5m.pt to /yolov5m.pt...
+Traceback (most recent call last):
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/utils/downloads.py", line 30, in safe_download
+    torch.hub.download_url_to_file(url, str(file))
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/torch/hub.py", line 452, in download_url_to_file
+    u = urlopen(req)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/urllib/request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/urllib/request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 1384, in connect
+    super().connect()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 640, in <module>
+    main(opt)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 537, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py", line 114, in train
+    weights = attempt_download(weights)  # download if not found locally
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/utils/downloads.py", line 78, in attempt_download
+    error_msg=f'{file} missing, try downloading from https://github.com/{repo}/releases/')
+  File "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/utils/downloads.py", line 38, in safe_download
+    file.unlink(missing_ok=True)  # remove partial downloads
+TypeError: unlink() got an unexpected keyword argument 'missing_ok'

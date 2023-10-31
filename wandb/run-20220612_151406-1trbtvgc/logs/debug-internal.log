@@ -1,0 +1,185 @@
+2022-06-12 15:14:07,078 INFO    MainThread:4015 [internal.py:wandb_internal():93] W&B internal server running at pid: 4015, started at: 2022-06-12 15:14:07.078293
+2022-06-12 15:14:07,079 INFO    WriterThread:4015 [datastore.py:open_for_write():75] open: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/run-1trbtvgc.wandb
+2022-06-12 15:14:07,081 DEBUG   SenderThread:4015 [sender.py:send():235] send: header
+2022-06-12 15:14:07,081 DEBUG   SenderThread:4015 [sender.py:send():235] send: run
+2022-06-12 15:14:07,087 INFO    SenderThread:4015 [sender.py:_maybe_setup_resume():493] checking resume status for None/YOLOv5/1trbtvgc
+2022-06-12 15:14:07,690 INFO    SenderThread:4015 [dir_watcher.py:__init__():205] watching files in: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files
+2022-06-12 15:14:07,690 INFO    SenderThread:4015 [sender.py:_start_run_threads():815] run started: 1trbtvgc with start time 1655018046
+2022-06-12 15:14:07,692 DEBUG   SenderThread:4015 [sender.py:send():235] send: summary
+2022-06-12 15:14:07,692 INFO    SenderThread:4015 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 15:14:07,692 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: check_version
+2022-06-12 15:14:07,693 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: check_version
+2022-06-12 15:14:08,101 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: run_start
+2022-06-12 15:14:08,108 DEBUG   HandlerThread:4015 [meta.py:__init__():35] meta init
+2022-06-12 15:14:08,108 DEBUG   HandlerThread:4015 [meta.py:__init__():49] meta init done
+2022-06-12 15:14:08,108 DEBUG   HandlerThread:4015 [meta.py:probe():209] probe
+2022-06-12 15:14:08,116 DEBUG   HandlerThread:4015 [git.py:repo():29] git repository is invalid
+2022-06-12 15:14:08,116 DEBUG   HandlerThread:4015 [meta.py:_save_pip():53] save pip
+2022-06-12 15:14:08,116 DEBUG   HandlerThread:4015 [meta.py:_save_pip():67] save pip done
+2022-06-12 15:14:08,116 DEBUG   HandlerThread:4015 [meta.py:_save_conda():74] save conda
+2022-06-12 15:14:08,692 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/wandb-summary.json
+2022-06-12 15:14:08,693 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/requirements.txt
+2022-06-12 15:14:08,693 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/conda-environment.yaml
+2022-06-12 15:14:09,435 DEBUG   HandlerThread:4015 [meta.py:_save_conda():84] save conda done
+2022-06-12 15:14:09,435 DEBUG   HandlerThread:4015 [meta.py:probe():247] probe done
+2022-06-12 15:14:09,455 DEBUG   SenderThread:4015 [sender.py:send():235] send: files
+2022-06-12 15:14:09,455 INFO    SenderThread:4015 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-12 15:14:09,460 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:14:09,460 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:14:09,692 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/conda-environment.yaml
+2022-06-12 15:14:09,693 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/output.log
+2022-06-12 15:14:09,694 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/wandb-metadata.json
+2022-06-12 15:14:09,733 DEBUG   SenderThread:4015 [sender.py:send():235] send: telemetry
+2022-06-12 15:14:09,733 DEBUG   SenderThread:4015 [sender.py:send():235] send: config
+2022-06-12 15:14:10,470 INFO    Thread-11 :4015 [upload_job.py:push():132] Uploaded file /tmp/tmpekmco59fwandb/ia9chefe-wandb-metadata.json
+2022-06-12 15:14:11,699 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/output.log
+2022-06-12 15:14:24,735 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:14:24,736 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:14:36,377 DEBUG   SenderThread:4015 [sender.py:send():235] send: stats
+2022-06-12 15:14:37,779 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/config.yaml
+2022-06-12 15:14:40,075 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:14:40,076 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:14:55,345 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:14:55,345 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:15:06,684 DEBUG   SenderThread:4015 [sender.py:send():235] send: stats
+2022-06-12 15:15:10,611 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:15:10,612 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:15:25,951 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:15:25,952 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:15:37,016 DEBUG   SenderThread:4015 [sender.py:send():235] send: stats
+2022-06-12 15:15:41,208 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:15:41,209 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:15:56,695 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-12 15:15:56,696 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 15:16:01,570 WARNING MainThread:4015 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-12 15:16:01,589 DEBUG   SenderThread:4015 [sender.py:send():235] send: telemetry
+2022-06-12 15:16:04,053 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/output.log
+2022-06-12 15:16:04,103 DEBUG   SenderThread:4015 [sender.py:send():235] send: exit
+2022-06-12 15:16:04,104 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:04,104 INFO    SenderThread:4015 [sender.py:send_exit():371] handling exit code: 1
+2022-06-12 15:16:04,105 INFO    SenderThread:4015 [sender.py:send_exit():373] handling runtime: 116
+2022-06-12 15:16:04,108 INFO    SenderThread:4015 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 15:16:04,108 INFO    SenderThread:4015 [sender.py:send_exit():379] send defer
+2022-06-12 15:16:04,109 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:04,110 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:04,111 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-12 15:16:04,112 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:04,112 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-12 15:16:04,113 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 1
+2022-06-12 15:16:04,114 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:04,114 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-12 15:16:04,131 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:04,132 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-12 15:16:04,132 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 2
+2022-06-12 15:16:04,132 DEBUG   SenderThread:4015 [sender.py:send():235] send: stats
+2022-06-12 15:16:04,132 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:04,132 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-12 15:16:04,133 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:04,133 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-12 15:16:04,133 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 3
+2022-06-12 15:16:04,133 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:04,133 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-12 15:16:04,133 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:04,133 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-12 15:16:04,133 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 4
+2022-06-12 15:16:04,134 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:04,134 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-12 15:16:04,134 DEBUG   SenderThread:4015 [sender.py:send():235] send: summary
+2022-06-12 15:16:04,134 INFO    SenderThread:4015 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-12 15:16:04,134 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:04,134 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-12 15:16:04,134 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 5
+2022-06-12 15:16:04,134 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:04,134 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-12 15:16:04,135 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:04,135 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-12 15:16:04,213 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:05,056 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/output.log
+2022-06-12 15:16:05,057 INFO    Thread-7  :4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/wandb-summary.json
+2022-06-12 15:16:06,067 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 6
+2022-06-12 15:16:06,067 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:06,068 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:06,069 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-12 15:16:06,069 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:06,069 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-12 15:16:06,069 INFO    SenderThread:4015 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-06-12 15:16:06,170 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,062 INFO    SenderThread:4015 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/config.yaml
+2022-06-12 15:16:07,062 INFO    SenderThread:4015 [dir_watcher.py:finish():366] scan: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files
+2022-06-12 15:16:07,062 INFO    SenderThread:4015 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/conda-environment.yaml conda-environment.yaml
+2022-06-12 15:16:07,063 INFO    SenderThread:4015 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/config.yaml config.yaml
+2022-06-12 15:16:07,065 INFO    SenderThread:4015 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/output.log output.log
+2022-06-12 15:16:07,068 INFO    SenderThread:4015 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/requirements.txt requirements.txt
+2022-06-12 15:16:07,070 INFO    SenderThread:4015 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/wandb-metadata.json wandb-metadata.json
+2022-06-12 15:16:07,070 INFO    SenderThread:4015 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/wandb-summary.json wandb-summary.json
+2022-06-12 15:16:07,073 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 7
+2022-06-12 15:16:07,073 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,075 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:07,076 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-12 15:16:07,076 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:07,076 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-12 15:16:07,076 INFO    SenderThread:4015 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-12 15:16:07,175 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,176 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,280 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,281 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,384 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,385 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,489 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,490 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,594 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,596 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,699 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,700 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,761 INFO    Thread-15 :4015 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/requirements.txt
+2022-06-12 15:16:07,791 INFO    Thread-14 :4015 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/output.log
+2022-06-12 15:16:07,803 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,804 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,908 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:07,909 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:07,941 INFO    Thread-16 :4015 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/wandb-summary.json
+2022-06-12 15:16:07,968 INFO    Thread-12 :4015 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/conda-environment.yaml
+2022-06-12 15:16:08,012 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:08,013 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:08,116 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:08,117 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:08,220 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:08,221 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:08,325 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:08,325 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:08,350 INFO    Thread-13 :4015 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/files/config.yaml
+2022-06-12 15:16:08,429 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:08,430 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:08,533 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:08,533 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:08,551 INFO    Thread-6  :4015 [sender.py:transition_state():392] send defer: 8
+2022-06-12 15:16:08,552 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:08,552 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-12 15:16:08,552 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:08,552 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-12 15:16:08,635 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:09,213 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 9
+2022-06-12 15:16:09,213 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:09,213 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:09,213 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-12 15:16:09,214 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:09,214 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-12 15:16:09,214 INFO    SenderThread:4015 [sender.py:transition_state():392] send defer: 10
+2022-06-12 15:16:09,215 DEBUG   SenderThread:4015 [sender.py:send():235] send: final
+2022-06-12 15:16:09,215 DEBUG   SenderThread:4015 [sender.py:send():235] send: footer
+2022-06-12 15:16:09,215 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: defer
+2022-06-12 15:16:09,215 INFO    HandlerThread:4015 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-12 15:16:09,216 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: defer
+2022-06-12 15:16:09,216 INFO    SenderThread:4015 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-06-12 15:16:09,314 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-12 15:16:09,314 DEBUG   SenderThread:4015 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 15:16:09,315 INFO    SenderThread:4015 [file_pusher.py:join():150] waiting for file pusher
+2022-06-12 15:16:11,107 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-12 15:16:11,108 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-12 15:16:11,109 DEBUG   HandlerThread:4015 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-12 15:16:11,109 INFO    HandlerThread:4015 [handler.py:finish():806] shutting down handler
+2022-06-12 15:16:11,216 INFO    WriterThread:4015 [datastore.py:close():279] close: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220612_151406-1trbtvgc/run-1trbtvgc.wandb
+2022-06-12 15:16:12,005 INFO    SenderThread:4015 [sender.py:finish():1111] shutting down sender
+2022-06-12 15:16:12,005 INFO    SenderThread:4015 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-12 15:16:12,005 INFO    SenderThread:4015 [file_pusher.py:join():150] waiting for file pusher
+2022-06-12 15:16:12,007 INFO    MainThread:4015 [internal.py:handle_exit():80] Internal process exited

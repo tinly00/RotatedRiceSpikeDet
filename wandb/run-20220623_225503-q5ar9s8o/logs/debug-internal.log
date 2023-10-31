@@ -1,0 +1,62 @@
+2022-06-23 22:55:03,658 INFO    MainThread:22288 [internal.py:wandb_internal():93] W&B internal server running at pid: 22288, started at: 2022-06-23 22:55:03.648911
+2022-06-23 22:55:03,660 INFO    WriterThread:22288 [datastore.py:open_for_write():75] open: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220623_225503-q5ar9s8o/run-q5ar9s8o.wandb
+2022-06-23 22:55:03,661 DEBUG   SenderThread:22288 [sender.py:send():235] send: header
+2022-06-23 22:55:03,661 DEBUG   SenderThread:22288 [sender.py:send():235] send: run
+2022-06-23 22:55:07,202 ERROR   SenderThread:22288 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/ssl.py", line 850, in _create
+    self.do_handshake()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/ssl.py", line 1108, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1045)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1045)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb-0.12.19-py3.7.egg/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb-0.12.19-py3.7.egg/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb-0.12.19-py3.7.egg/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb-0.12.19-py3.7.egg/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb-0.12.19-py3.7.egg/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1045)')))
+2022-06-23 22:55:29,240 WARNING MainThread:22288 [internal.py:wandb_internal():153] Internal process interrupt: 1

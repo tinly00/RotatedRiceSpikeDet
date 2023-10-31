@@ -1,0 +1,477 @@
+2022-08-21 14:13:15,742 INFO    MainThread:10933 [internal.py:wandb_internal():93] W&B internal server running at pid: 10933, started at: 2022-08-21 14:13:15.741978
+2022-08-21 14:13:15,743 INFO    WriterThread:10933 [datastore.py:open_for_write():75] open: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/run-1md8gm8o.wandb
+2022-08-21 14:13:15,745 DEBUG   SenderThread:10933 [sender.py:send():235] send: header
+2022-08-21 14:13:15,745 DEBUG   SenderThread:10933 [sender.py:send():235] send: run
+2022-08-21 14:13:15,751 INFO    SenderThread:10933 [sender.py:_maybe_setup_resume():493] checking resume status for None/yolov5_obb-master/1md8gm8o
+2022-08-21 14:13:16,364 INFO    SenderThread:10933 [dir_watcher.py:__init__():205] watching files in: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files
+2022-08-21 14:13:16,364 INFO    SenderThread:10933 [sender.py:_start_run_threads():815] run started: 1md8gm8o with start time 1661062395
+2022-08-21 14:13:16,368 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:16,368 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:16,368 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: check_version
+2022-08-21 14:13:16,368 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: check_version
+2022-08-21 14:13:16,798 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: run_start
+2022-08-21 14:13:16,811 DEBUG   HandlerThread:10933 [meta.py:__init__():35] meta init
+2022-08-21 14:13:16,812 DEBUG   HandlerThread:10933 [meta.py:__init__():49] meta init done
+2022-08-21 14:13:16,812 DEBUG   HandlerThread:10933 [meta.py:probe():209] probe
+2022-08-21 14:13:16,825 DEBUG   HandlerThread:10933 [git.py:repo():29] git repository is invalid
+2022-08-21 14:13:16,825 DEBUG   HandlerThread:10933 [meta.py:_save_pip():53] save pip
+2022-08-21 14:13:16,827 DEBUG   HandlerThread:10933 [meta.py:_save_pip():67] save pip done
+2022-08-21 14:13:16,828 DEBUG   HandlerThread:10933 [meta.py:_save_conda():74] save conda
+2022-08-21 14:13:17,366 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:17,367 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/conda-environment.yaml
+2022-08-21 14:13:17,367 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/requirements.txt
+2022-08-21 14:13:18,068 DEBUG   HandlerThread:10933 [meta.py:_save_conda():84] save conda done
+2022-08-21 14:13:18,068 DEBUG   HandlerThread:10933 [meta.py:probe():247] probe done
+2022-08-21 14:13:18,101 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:18,102 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-08-21 14:13:18,106 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:13:18,106 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:13:18,366 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/conda-environment.yaml
+2022-08-21 14:13:18,367 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:18,367 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-metadata.json
+2022-08-21 14:13:18,374 DEBUG   SenderThread:10933 [sender.py:send():235] send: telemetry
+2022-08-21 14:13:18,375 DEBUG   SenderThread:10933 [sender.py:send():235] send: config
+2022-08-21 14:13:19,443 INFO    Thread-11 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/2jsltqfv-wandb-metadata.json
+2022-08-21 14:13:23,370 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:25,372 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:27,374 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:29,376 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:31,107 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:31,108 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Labels_0_40af51b2fc54aa8d8f84.jpg with policy now
+2022-08-21 14:13:31,118 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:31,118 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Labels_0_7aa75e5a0db50ee07375.jpg with policy now
+2022-08-21 14:13:31,147 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:31,149 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:31,150 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:31,151 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:31,378 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:31,379 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:31,379 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Labels_0_7aa75e5a0db50ee07375.jpg
+2022-08-21 14:13:31,379 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Labels_0_40af51b2fc54aa8d8f84.jpg
+2022-08-21 14:13:31,379 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images
+2022-08-21 14:13:31,380 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media
+2022-08-21 14:13:32,194 INFO    Thread-12 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/34qgibko-media/images/Labels_0_40af51b2fc54aa8d8f84.jpg
+2022-08-21 14:13:32,231 INFO    Thread-13 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/3lvok9sw-media/images/Labels_0_7aa75e5a0db50ee07375.jpg
+2022-08-21 14:13:35,386 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:35,600 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:13:35,601 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:13:35,869 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,869 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_9223f5756f52be98b094.jpg with policy now
+2022-08-21 14:13:35,870 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,870 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_120faa6570c56bf67762.jpg with policy now
+2022-08-21 14:13:35,870 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,870 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_9bc53dd7bcd04af84421.jpg with policy now
+2022-08-21 14:13:35,871 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,871 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_0de0bcf42c62570ad5d1.jpg with policy now
+2022-08-21 14:13:35,872 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,872 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_03a8400cbed3c0ae7709.jpg with policy now
+2022-08-21 14:13:35,872 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,872 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_3424316d5f1033743f37.jpg with policy now
+2022-08-21 14:13:35,873 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,873 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_e18ff8437bf1297b9023.jpg with policy now
+2022-08-21 14:13:35,873 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:13:35,873 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/Mosaics_1_8c760410518f205117bc.jpg with policy now
+2022-08-21 14:13:35,991 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:35,992 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:35,993 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:36,882 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:36,896 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:36,897 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:36,898 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_e18ff8437bf1297b9023.jpg
+2022-08-21 14:13:36,899 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_9223f5756f52be98b094.jpg
+2022-08-21 14:13:36,899 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_120faa6570c56bf67762.jpg
+2022-08-21 14:13:36,900 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_8c760410518f205117bc.jpg
+2022-08-21 14:13:36,901 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_03a8400cbed3c0ae7709.jpg
+2022-08-21 14:13:36,902 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_9bc53dd7bcd04af84421.jpg
+2022-08-21 14:13:36,903 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_3424316d5f1033743f37.jpg
+2022-08-21 14:13:36,904 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_0de0bcf42c62570ad5d1.jpg
+2022-08-21 14:13:36,905 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images
+2022-08-21 14:13:37,293 INFO    Thread-17 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/ohfy77el-media/images/Mosaics_1_0de0bcf42c62570ad5d1.jpg
+2022-08-21 14:13:37,473 INFO    Thread-21 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/376rwzu4-media/images/Mosaics_1_8c760410518f205117bc.jpg
+2022-08-21 14:13:37,574 INFO    Thread-20 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/2g5lgjou-media/images/Mosaics_1_e18ff8437bf1297b9023.jpg
+2022-08-21 14:13:37,833 INFO    Thread-15 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/1ssop0kx-media/images/Mosaics_1_120faa6570c56bf67762.jpg
+2022-08-21 14:13:37,862 INFO    Thread-18 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/4e2c6oi2-media/images/Mosaics_1_03a8400cbed3c0ae7709.jpg
+2022-08-21 14:13:38,030 INFO    Thread-16 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/2d01xxm5-media/images/Mosaics_1_9bc53dd7bcd04af84421.jpg
+2022-08-21 14:13:38,151 INFO    Thread-19 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/2xmsz5ru-media/images/Mosaics_1_3424316d5f1033743f37.jpg
+2022-08-21 14:13:38,901 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:39,681 INFO    Thread-14 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/28se67yh-media/images/Mosaics_1_9223f5756f52be98b094.jpg
+2022-08-21 14:13:40,490 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:40,491 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:40,491 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:40,491 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:40,906 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:40,906 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:42,909 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:44,335 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:44,336 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:44,336 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:44,336 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:44,914 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:44,915 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:45,049 DEBUG   SenderThread:10933 [sender.py:send():235] send: stats
+2022-08-21 14:13:46,919 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:46,920 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/config.yaml
+2022-08-21 14:13:48,234 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:48,234 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:48,235 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:48,235 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:48,923 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:48,923 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:50,870 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:13:50,870 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:13:50,927 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:51,829 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:51,830 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:51,830 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:51,830 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:51,928 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:52,930 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:54,933 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:55,387 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:55,387 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:55,387 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:55,388 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:55,935 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:56,936 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:13:58,750 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:13:58,750 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:13:58,751 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:13:58,751 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:13:58,940 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:13:58,941 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:00,945 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:02,155 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:02,155 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:02,155 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:02,156 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:02,948 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:02,948 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:04,951 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:05,664 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:05,664 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:05,665 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:05,665 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:05,954 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:06,115 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:14:06,116 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:14:06,957 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:08,960 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:09,527 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:09,528 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:09,528 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:09,529 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:09,963 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:10,966 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:12,969 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:13,568 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:13,569 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:13,570 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:13,570 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:13,972 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:14,975 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:15,223 DEBUG   SenderThread:10933 [sender.py:send():235] send: stats
+2022-08-21 14:14:16,979 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:17,412 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:17,413 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:17,413 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:17,414 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:17,981 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:18,983 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:20,979 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:20,980 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:20,980 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:20,981 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:20,986 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:20,986 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:21,365 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:14:21,365 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:14:22,991 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:24,423 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:24,424 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:24,424 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:24,425 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:24,994 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:24,995 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:26,998 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:27,968 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:27,969 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:27,969 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:27,970 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:27,999 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:29,002 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:31,005 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:31,341 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:31,342 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:31,342 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:31,343 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:32,008 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:33,009 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:34,695 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:34,696 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:34,696 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:34,697 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:35,013 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:35,014 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:37,017 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:37,654 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:14:37,655 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:14:38,068 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:38,377 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:38,377 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:38,378 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:39,020 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:39,021 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:41,024 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:41,474 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:41,475 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:41,475 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:41,476 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:42,025 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:43,027 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:44,839 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:44,840 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:44,840 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:44,840 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:45,031 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:45,032 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:45,397 DEBUG   SenderThread:10933 [sender.py:send():235] send: stats
+2022-08-21 14:14:47,035 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:48,189 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:48,190 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:48,190 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:48,190 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:49,040 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:49,040 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:51,043 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:51,943 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:51,944 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:51,944 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:51,944 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:52,045 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:53,047 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:53,378 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:14:53,378 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:14:55,050 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:55,341 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:55,342 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:55,342 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:55,343 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:56,053 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:57,055 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:14:58,800 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:14:58,801 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:14:58,801 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:14:58,802 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:14:59,060 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:14:59,061 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:01,070 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:02,567 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:02,567 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:02,567 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:02,568 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:03,075 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:03,076 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:05,080 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:06,210 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:06,210 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:06,210 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:06,211 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:07,085 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:07,086 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:08,641 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:15:08,641 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:15:09,089 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:09,942 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:09,943 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:09,943 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:09,943 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:10,093 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:11,095 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:13,099 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:13,451 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:13,452 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:13,452 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:13,452 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:14,101 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:15,103 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:15,567 DEBUG   SenderThread:10933 [sender.py:send():235] send: stats
+2022-08-21 14:15:21,183 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:21,191 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:15:21,191 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/images/BoundingBoxDebugger_29_f5d8b6d187f9458b59b4.png with policy now
+2022-08-21 14:15:21,193 DEBUG   SenderThread:10933 [sender.py:send():235] send: files
+2022-08-21 14:15:21,193 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file media/metadata/boxes2D/BoundingBoxDebugger_29_2e3317e8e26bd3591bac.boxes2D.json with policy now
+2022-08-21 14:15:21,196 DEBUG   SenderThread:10933 [sender.py:send():235] send: config
+2022-08-21 14:15:21,212 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:21,213 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:21,214 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:21,214 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:22,185 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:22,185 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/BoundingBoxDebugger_29_f5d8b6d187f9458b59b4.png
+2022-08-21 14:15:22,185 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/metadata/boxes2D/BoundingBoxDebugger_29_2e3317e8e26bd3591bac.boxes2D.json
+2022-08-21 14:15:22,186 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images
+2022-08-21 14:15:22,186 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media
+2022-08-21 14:15:22,186 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/metadata/boxes2D
+2022-08-21 14:15:22,186 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/metadata
+2022-08-21 14:15:22,553 INFO    Thread-22 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/sxqiuay5-media/images/BoundingBoxDebugger_29_f5d8b6d187f9458b59b4.png
+2022-08-21 14:15:22,743 INFO    Thread-23 :10933 [upload_job.py:push():132] Uploaded file /tmp/tmpobpzuy36wandb/sv9dg4py-media/metadata/boxes2D/BoundingBoxDebugger_29_2e3317e8e26bd3591bac.boxes2D.json
+2022-08-21 14:15:23,889 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-21 14:15:23,890 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: stop_status
+2022-08-21 14:15:25,213 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:26,033 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:26,034 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:26,034 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:26,035 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:26,216 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:27,218 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:29,223 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:29,380 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-21 14:15:29,381 DEBUG   SenderThread:10933 [sender.py:send():235] send: history
+2022-08-21 14:15:29,381 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:29,381 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:30,225 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:30,613 WARNING MainThread:10933 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-08-21 14:15:30,628 DEBUG   SenderThread:10933 [sender.py:send():235] send: telemetry
+2022-08-21 14:15:31,227 INFO    Thread-7  :10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:33,336 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:33,336 DEBUG   SenderThread:10933 [sender.py:send():235] send: exit
+2022-08-21 14:15:33,337 INFO    SenderThread:10933 [sender.py:send_exit():371] handling exit code: 1
+2022-08-21 14:15:33,338 INFO    SenderThread:10933 [sender.py:send_exit():373] handling runtime: 136
+2022-08-21 14:15:33,340 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:33,341 INFO    SenderThread:10933 [sender.py:send_exit():379] send defer
+2022-08-21 14:15:33,341 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:33,342 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,343 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-21 14:15:33,344 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,344 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-08-21 14:15:33,345 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 1
+2022-08-21 14:15:33,346 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,346 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-21 14:15:33,410 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,410 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-08-21 14:15:33,411 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 2
+2022-08-21 14:15:33,411 DEBUG   SenderThread:10933 [sender.py:send():235] send: stats
+2022-08-21 14:15:33,413 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,413 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-21 14:15:33,413 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,414 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-08-21 14:15:33,414 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 3
+2022-08-21 14:15:33,414 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,415 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-21 14:15:33,415 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,415 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-08-21 14:15:33,415 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 4
+2022-08-21 14:15:33,416 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,416 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-21 14:15:33,417 DEBUG   SenderThread:10933 [sender.py:send():235] send: summary
+2022-08-21 14:15:33,418 INFO    SenderThread:10933 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-08-21 14:15:33,418 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,418 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-08-21 14:15:33,418 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 5
+2022-08-21 14:15:33,419 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,419 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-21 14:15:33,419 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,420 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-08-21 14:15:33,444 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:33,768 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 6
+2022-08-21 14:15:33,769 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:33,769 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:33,770 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-21 14:15:33,770 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:33,770 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-08-21 14:15:33,770 INFO    SenderThread:10933 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-08-21 14:15:33,871 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,238 INFO    SenderThread:10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:34,239 INFO    SenderThread:10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/config.yaml
+2022-08-21 14:15:34,240 INFO    SenderThread:10933 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:34,247 INFO    SenderThread:10933 [dir_watcher.py:finish():366] scan: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files
+2022-08-21 14:15:34,249 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/conda-environment.yaml conda-environment.yaml
+2022-08-21 14:15:34,250 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/config.yaml config.yaml
+2022-08-21 14:15:34,261 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log output.log
+2022-08-21 14:15:34,270 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/requirements.txt requirements.txt
+2022-08-21 14:15:34,283 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-metadata.json wandb-metadata.json
+2022-08-21 14:15:34,284 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json wandb-summary.json
+2022-08-21 14:15:34,307 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/BoundingBoxDebugger_29_f5d8b6d187f9458b59b4.png media/images/BoundingBoxDebugger_29_f5d8b6d187f9458b59b4.png
+2022-08-21 14:15:34,308 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Labels_0_40af51b2fc54aa8d8f84.jpg media/images/Labels_0_40af51b2fc54aa8d8f84.jpg
+2022-08-21 14:15:34,308 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Labels_0_7aa75e5a0db50ee07375.jpg media/images/Labels_0_7aa75e5a0db50ee07375.jpg
+2022-08-21 14:15:34,309 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_03a8400cbed3c0ae7709.jpg media/images/Mosaics_1_03a8400cbed3c0ae7709.jpg
+2022-08-21 14:15:34,309 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_0de0bcf42c62570ad5d1.jpg media/images/Mosaics_1_0de0bcf42c62570ad5d1.jpg
+2022-08-21 14:15:34,309 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_120faa6570c56bf67762.jpg media/images/Mosaics_1_120faa6570c56bf67762.jpg
+2022-08-21 14:15:34,310 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_3424316d5f1033743f37.jpg media/images/Mosaics_1_3424316d5f1033743f37.jpg
+2022-08-21 14:15:34,310 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_8c760410518f205117bc.jpg media/images/Mosaics_1_8c760410518f205117bc.jpg
+2022-08-21 14:15:34,311 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_9223f5756f52be98b094.jpg media/images/Mosaics_1_9223f5756f52be98b094.jpg
+2022-08-21 14:15:34,311 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_9bc53dd7bcd04af84421.jpg media/images/Mosaics_1_9bc53dd7bcd04af84421.jpg
+2022-08-21 14:15:34,311 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/images/Mosaics_1_e18ff8437bf1297b9023.jpg media/images/Mosaics_1_e18ff8437bf1297b9023.jpg
+2022-08-21 14:15:34,315 INFO    SenderThread:10933 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/media/metadata/boxes2D/BoundingBoxDebugger_29_2e3317e8e26bd3591bac.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_29_2e3317e8e26bd3591bac.boxes2D.json
+2022-08-21 14:15:34,315 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 7
+2022-08-21 14:15:34,316 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,317 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:34,318 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-21 14:15:34,319 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:34,319 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-08-21 14:15:34,320 INFO    SenderThread:10933 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-21 14:15:34,419 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,420 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,524 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,525 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,628 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,629 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,732 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,733 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,836 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,837 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,941 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:34,942 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:34,973 INFO    Thread-25 :10933 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/config.yaml
+2022-08-21 14:15:35,004 INFO    Thread-27 :10933 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/requirements.txt
+2022-08-21 14:15:35,045 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,045 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,147 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,148 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,252 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,253 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,356 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,357 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,378 INFO    Thread-28 :10933 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/wandb-summary.json
+2022-08-21 14:15:35,461 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,462 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,565 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,565 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,668 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,668 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,749 INFO    Thread-26 :10933 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/output.log
+2022-08-21 14:15:35,757 INFO    Thread-24 :10933 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/files/conda-environment.yaml
+2022-08-21 14:15:35,771 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,772 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,874 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:35,875 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:35,957 INFO    Thread-6  :10933 [sender.py:transition_state():392] send defer: 8
+2022-08-21 14:15:35,959 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:35,959 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-21 14:15:35,960 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:35,962 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-08-21 14:15:35,978 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:36,186 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 9
+2022-08-21 14:15:36,187 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:36,189 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:36,189 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-21 14:15:36,190 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:36,190 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-08-21 14:15:36,191 INFO    SenderThread:10933 [sender.py:transition_state():392] send defer: 10
+2022-08-21 14:15:36,193 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: defer
+2022-08-21 14:15:36,193 DEBUG   SenderThread:10933 [sender.py:send():235] send: final
+2022-08-21 14:15:36,194 INFO    HandlerThread:10933 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-21 14:15:36,195 DEBUG   SenderThread:10933 [sender.py:send():235] send: footer
+2022-08-21 14:15:36,196 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: defer
+2022-08-21 14:15:36,197 INFO    SenderThread:10933 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-08-21 14:15:36,291 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-21 14:15:36,292 DEBUG   SenderThread:10933 [sender.py:send_request():249] send_request: poll_exit
+2022-08-21 14:15:36,292 INFO    SenderThread:10933 [file_pusher.py:join():150] waiting for file pusher
+2022-08-21 14:15:37,011 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-21 14:15:37,017 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-21 14:15:37,020 DEBUG   HandlerThread:10933 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-21 14:15:37,021 INFO    HandlerThread:10933 [handler.py:finish():806] shutting down handler
+2022-08-21 14:15:37,194 INFO    WriterThread:10933 [datastore.py:close():279] close: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220821_141315-1md8gm8o/run-1md8gm8o.wandb
+2022-08-21 14:15:37,908 INFO    SenderThread:10933 [sender.py:finish():1111] shutting down sender
+2022-08-21 14:15:37,909 INFO    SenderThread:10933 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-21 14:15:37,909 INFO    SenderThread:10933 [file_pusher.py:join():150] waiting for file pusher
+2022-08-21 14:15:37,917 INFO    MainThread:10933 [internal.py:handle_exit():80] Internal process exited

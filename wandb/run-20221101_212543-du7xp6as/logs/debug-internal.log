@@ -1,0 +1,310 @@
+2022-11-01 21:25:43,912 INFO    MainThread:6822 [internal.py:wandb_internal():93] W&B internal server running at pid: 6822, started at: 2022-11-01 21:25:43.912641
+2022-11-01 21:25:43,914 INFO    WriterThread:6822 [datastore.py:open_for_write():75] open: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/run-du7xp6as.wandb
+2022-11-01 21:25:43,915 DEBUG   SenderThread:6822 [sender.py:send():235] send: header
+2022-11-01 21:25:43,915 DEBUG   SenderThread:6822 [sender.py:send():235] send: run
+2022-11-01 21:25:43,922 INFO    SenderThread:6822 [sender.py:_maybe_setup_resume():493] checking resume status for None/yolov5_obb-master/du7xp6as
+2022-11-01 21:25:44,785 INFO    SenderThread:6822 [dir_watcher.py:__init__():205] watching files in: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files
+2022-11-01 21:25:44,785 INFO    SenderThread:6822 [sender.py:_start_run_threads():815] run started: du7xp6as with start time 1667309143
+2022-11-01 21:25:44,804 DEBUG   SenderThread:6822 [sender.py:send():235] send: summary
+2022-11-01 21:25:44,806 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: check_version
+2022-11-01 21:25:44,807 INFO    SenderThread:6822 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-11-01 21:25:44,808 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: check_version
+2022-11-01 21:25:45,791 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/wandb-summary.json
+2022-11-01 21:25:49,802 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: run_start
+2022-11-01 21:25:49,821 DEBUG   HandlerThread:6822 [meta.py:__init__():35] meta init
+2022-11-01 21:25:49,822 DEBUG   HandlerThread:6822 [meta.py:__init__():49] meta init done
+2022-11-01 21:25:49,823 DEBUG   HandlerThread:6822 [meta.py:probe():209] probe
+2022-11-01 21:25:49,837 DEBUG   HandlerThread:6822 [git.py:repo():29] git repository is invalid
+2022-11-01 21:25:49,837 DEBUG   HandlerThread:6822 [meta.py:_save_pip():53] save pip
+2022-11-01 21:25:49,839 DEBUG   HandlerThread:6822 [meta.py:_save_pip():67] save pip done
+2022-11-01 21:25:49,840 DEBUG   HandlerThread:6822 [meta.py:_save_conda():74] save conda
+2022-11-01 21:25:50,797 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/conda-environment.yaml
+2022-11-01 21:25:50,797 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/requirements.txt
+2022-11-01 21:25:51,235 DEBUG   HandlerThread:6822 [meta.py:_save_conda():84] save conda done
+2022-11-01 21:25:51,235 DEBUG   HandlerThread:6822 [meta.py:probe():247] probe done
+2022-11-01 21:25:51,255 DEBUG   SenderThread:6822 [sender.py:send():235] send: files
+2022-11-01 21:25:51,256 INFO    SenderThread:6822 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-11-01 21:25:51,260 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-01 21:25:51,260 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: stop_status
+2022-11-01 21:25:51,503 DEBUG   SenderThread:6822 [sender.py:send():235] send: telemetry
+2022-11-01 21:25:51,503 DEBUG   SenderThread:6822 [sender.py:send():235] send: config
+2022-11-01 21:25:51,797 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/conda-environment.yaml
+2022-11-01 21:25:51,798 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:25:51,798 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_created():256] file/dir created: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/wandb-metadata.json
+2022-11-01 21:25:51,960 INFO    Thread-11 :6822 [upload_job.py:push():132] Uploaded file /tmp/tmp4odvvz4awandb/1m02pfk7-wandb-metadata.json
+2022-11-01 21:25:56,811 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:25:57,812 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:25:58,813 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:00,815 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:02,817 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:04,819 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:06,820 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:08,766 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-01 21:26:08,766 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: stop_status
+2022-11-01 21:26:08,822 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:10,824 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:12,826 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:14,828 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/config.yaml
+2022-11-01 21:26:14,828 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:16,829 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:18,032 DEBUG   SenderThread:6822 [sender.py:send():235] send: stats
+2022-11-01 21:26:18,831 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:20,832 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:22,834 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:24,067 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-01 21:26:24,067 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: stop_status
+2022-11-01 21:26:24,836 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:26,838 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:28,840 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:30,842 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:31,564 DEBUG   SenderThread:6822 [sender.py:send():235] send: telemetry
+2022-11-01 21:26:32,847 INFO    Thread-7  :6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:33,974 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:33,975 DEBUG   SenderThread:6822 [sender.py:send():235] send: exit
+2022-11-01 21:26:33,975 INFO    SenderThread:6822 [sender.py:send_exit():371] handling exit code: 1
+2022-11-01 21:26:33,976 INFO    SenderThread:6822 [sender.py:send_exit():373] handling runtime: 44
+2022-11-01 21:26:33,976 INFO    SenderThread:6822 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-11-01 21:26:33,977 INFO    SenderThread:6822 [sender.py:send_exit():379] send defer
+2022-11-01 21:26:33,977 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:33,977 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:33,978 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 0
+2022-11-01 21:26:33,978 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:33,979 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-11-01 21:26:33,979 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 1
+2022-11-01 21:26:33,980 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:33,980 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 1
+2022-11-01 21:26:34,040 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,040 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-11-01 21:26:34,040 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 2
+2022-11-01 21:26:34,040 DEBUG   SenderThread:6822 [sender.py:send():235] send: stats
+2022-11-01 21:26:34,041 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:34,041 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 2
+2022-11-01 21:26:34,041 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,041 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-11-01 21:26:34,041 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 3
+2022-11-01 21:26:34,041 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:34,041 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 3
+2022-11-01 21:26:34,042 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,042 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-11-01 21:26:34,042 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 4
+2022-11-01 21:26:34,042 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:34,042 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 4
+2022-11-01 21:26:34,042 DEBUG   SenderThread:6822 [sender.py:send():235] send: summary
+2022-11-01 21:26:34,042 INFO    SenderThread:6822 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-11-01 21:26:34,042 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,042 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-11-01 21:26:34,042 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 5
+2022-11-01 21:26:34,043 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:34,043 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 5
+2022-11-01 21:26:34,043 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,043 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-11-01 21:26:34,079 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:34,348 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 6
+2022-11-01 21:26:34,348 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:34,348 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:34,348 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 6
+2022-11-01 21:26:34,349 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,349 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-11-01 21:26:34,349 INFO    SenderThread:6822 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-11-01 21:26:34,450 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:34,853 INFO    SenderThread:6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/wandb-summary.json
+2022-11-01 21:26:34,854 INFO    SenderThread:6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/config.yaml
+2022-11-01 21:26:34,855 INFO    SenderThread:6822 [dir_watcher.py:_on_file_modified():269] file/dir modified: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:34,857 INFO    SenderThread:6822 [dir_watcher.py:finish():366] scan: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files
+2022-11-01 21:26:34,859 INFO    SenderThread:6822 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/conda-environment.yaml conda-environment.yaml
+2022-11-01 21:26:34,860 INFO    SenderThread:6822 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/config.yaml config.yaml
+2022-11-01 21:26:34,872 INFO    SenderThread:6822 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log output.log
+2022-11-01 21:26:34,882 INFO    SenderThread:6822 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/requirements.txt requirements.txt
+2022-11-01 21:26:34,889 INFO    SenderThread:6822 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/wandb-metadata.json wandb-metadata.json
+2022-11-01 21:26:34,890 INFO    SenderThread:6822 [dir_watcher.py:finish():380] scan save: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/wandb-summary.json wandb-summary.json
+2022-11-01 21:26:34,894 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 7
+2022-11-01 21:26:34,895 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:34,899 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:34,900 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 7
+2022-11-01 21:26:34,900 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:34,901 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-11-01 21:26:34,901 INFO    SenderThread:6822 [file_pusher.py:finish():145] shutting down file pusher
+2022-11-01 21:26:34,997 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:34,998 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,101 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,103 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,206 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,207 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,310 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,311 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,414 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,414 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,518 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,519 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,622 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,623 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,653 INFO    Thread-13 :6822 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/config.yaml
+2022-11-01 21:26:35,680 INFO    Thread-16 :6822 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/wandb-summary.json
+2022-11-01 21:26:35,727 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,728 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,831 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,832 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,936 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:35,937 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:35,992 INFO    Thread-15 :6822 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/requirements.txt
+2022-11-01 21:26:36,039 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,040 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,142 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,143 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,246 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,247 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,339 INFO    Thread-12 :6822 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/conda-environment.yaml
+2022-11-01 21:26:36,354 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,355 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,458 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,459 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,563 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,564 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,667 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,668 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,771 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,772 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,875 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,876 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:36,979 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:36,980 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,083 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,084 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,187 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,188 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,291 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,292 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,395 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,396 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,499 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,500 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,603 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,604 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,707 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,708 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,811 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,812 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:37,915 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:37,916 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,019 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,020 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,123 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,125 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,228 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,229 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,332 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,333 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,436 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,437 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,540 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,541 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,644 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,645 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,749 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,750 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,853 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,854 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:38,957 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:38,958 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,061 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,062 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,165 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,166 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,269 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,270 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,373 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,374 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,478 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,478 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,582 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,583 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,686 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,687 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,790 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,791 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,894 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,895 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:39,998 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:39,999 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,102 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,103 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,206 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,207 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,310 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,311 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,414 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,415 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,518 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,519 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,622 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,623 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,726 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,727 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,830 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,831 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:40,934 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:40,935 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,038 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,039 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,143 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,143 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,247 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,247 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,350 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,351 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,453 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,453 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,557 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,558 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,661 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,662 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,765 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,766 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,869 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,870 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:41,973 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:41,974 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,077 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,077 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,179 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,180 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,283 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,284 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,387 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,388 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,474 INFO    Thread-14 :6822 [upload_job.py:push():132] Uploaded file /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/files/output.log
+2022-11-01 21:26:42,491 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,492 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,595 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,596 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,675 INFO    Thread-6  :6822 [sender.py:transition_state():392] send defer: 8
+2022-11-01 21:26:42,677 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:42,677 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 8
+2022-11-01 21:26:42,678 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:42,679 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-11-01 21:26:42,699 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:42,901 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 9
+2022-11-01 21:26:42,902 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:42,903 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:42,904 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 9
+2022-11-01 21:26:42,905 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:42,905 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-11-01 21:26:42,906 INFO    SenderThread:6822 [sender.py:transition_state():392] send defer: 10
+2022-11-01 21:26:42,908 DEBUG   SenderThread:6822 [sender.py:send():235] send: final
+2022-11-01 21:26:42,908 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: defer
+2022-11-01 21:26:42,909 DEBUG   SenderThread:6822 [sender.py:send():235] send: footer
+2022-11-01 21:26:42,909 INFO    HandlerThread:6822 [handler.py:handle_request_defer():164] handle defer: 10
+2022-11-01 21:26:42,911 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: defer
+2022-11-01 21:26:42,912 INFO    SenderThread:6822 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-11-01 21:26:43,005 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-01 21:26:43,006 DEBUG   SenderThread:6822 [sender.py:send_request():249] send_request: poll_exit
+2022-11-01 21:26:43,007 INFO    SenderThread:6822 [file_pusher.py:join():150] waiting for file pusher
+2022-11-01 21:26:43,628 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: sampled_history
+2022-11-01 21:26:43,630 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: get_summary
+2022-11-01 21:26:43,632 DEBUG   HandlerThread:6822 [handler.py:handle_request():141] handle_request: shutdown
+2022-11-01 21:26:43,633 INFO    HandlerThread:6822 [handler.py:finish():806] shutting down handler
+2022-11-01 21:26:43,909 INFO    WriterThread:6822 [datastore.py:close():279] close: /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20221101_212543-du7xp6as/run-du7xp6as.wandb
+2022-11-01 21:26:44,525 INFO    SenderThread:6822 [sender.py:finish():1111] shutting down sender
+2022-11-01 21:26:44,526 INFO    SenderThread:6822 [file_pusher.py:finish():145] shutting down file pusher
+2022-11-01 21:26:44,526 INFO    SenderThread:6822 [file_pusher.py:join():150] waiting for file pusher
+2022-11-01 21:26:44,532 INFO    MainThread:6822 [internal.py:handle_exit():80] Internal process exited

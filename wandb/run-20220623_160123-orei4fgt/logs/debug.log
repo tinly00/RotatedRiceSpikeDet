@@ -1,0 +1,98 @@
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_setup.py:_flush():76] Loading settings from /home/scau/.config/wandb/settings
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_setup.py:_flush():76] Loading settings from /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/settings
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py'}
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_init.py:_log_setup():428] Logging user logs to /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220623_160123-orei4fgt/logs/debug.log
+2022-06-23 16:01:23,157 INFO    MainThread:7582 [wandb_init.py:_log_setup():429] Logging internal logs to /media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/wandb/run-20220623_160123-orei4fgt/logs/debug-internal.log
+2022-06-23 16:01:23,158 INFO    MainThread:7582 [wandb_init.py:init():462] calling init triggers
+2022-06-23 16:01:23,158 INFO    MainThread:7582 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {'weights': '/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/runs/train/exp20/weights/best.pt', 'cfg': '', 'data': 'data/dotav15_poly.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'theta': 0.5, 'theta_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 180.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.5, 'fliplr': 0.5, 'mosaic': 0.95, 'mixup': 0.1, 'copy_paste': 0.0, 'cls_theta': 180, 'csl_radius': 2.0}, 'epochs': 100, 'batch_size': 4, 'imgsz': 1024, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'workers': 8, 'project': 'runs/train', 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'runs/train/exp21'}
+2022-06-23 16:01:23,158 INFO    MainThread:7582 [wandb_init.py:init():515] starting backend
+2022-06-23 16:01:23,158 INFO    MainThread:7582 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-06-23 16:01:23,165 INFO    MainThread:7582 [backend.py:ensure_launched():217] starting backend process...
+2022-06-23 16:01:23,168 INFO    MainThread:7582 [backend.py:ensure_launched():222] started backend process with pid: 7604
+2022-06-23 16:01:23,169 INFO    MainThread:7582 [wandb_init.py:init():525] backend started and connected
+2022-06-23 16:01:23,177 INFO    MainThread:7582 [wandb_init.py:init():596] updated telemetry
+2022-06-23 16:01:23,178 INFO    MainThread:7582 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-06-23 16:01:53,179 INFO    MainThread:7582 [interface_shared.py:_communicate_run():326] couldn't get run from backend
+2022-06-23 16:01:53,180 ERROR   MainThread:7582 [wandb_init.py:init():636] backend process timed out
+2022-06-23 16:01:53,181 ERROR   MainThread:7582 [wandb_init.py:init():647] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-06-23 16:02:21,482 ERROR   Thread-1  :7582 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fcef70c19e8>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcef70c19e8>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcef70c19e8>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2022-06-23 16:09:19,819 WARNING MainThread:7582 [wandb_init.py:init():1020] interrupted
+Traceback (most recent call last):
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 651, in init
+    backend.cleanup()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/site-packages/wandb/sdk/backend/backend.py", line 248, in cleanup
+    self.wandb_process.join()
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/multiprocessing/popen_fork.py", line 48, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/home/scau/anaconda3/envs/yolov5/lib/python3.7/multiprocessing/popen_fork.py", line 28, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt

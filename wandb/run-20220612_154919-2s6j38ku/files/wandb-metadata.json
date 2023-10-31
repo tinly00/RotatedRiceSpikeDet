@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-110-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.0",
+    "heartbeatAt": "2022-06-12T07:49:20.926493",
+    "startedAt": "2022-06-12T07:49:19.450678",
+    "docker": null,
+    "gpu": "GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "program": "/media/scau/21B1CA0D9A1CBC09/DL/yolov5_obb-master/yolov5_obb-master/train.py",
+    "codePath": "train.py",
+    "host": "daaize",
+    "username": "scau",
+    "executable": "/home/scau/anaconda3/envs/yolov5/bin/python3.7"
+}

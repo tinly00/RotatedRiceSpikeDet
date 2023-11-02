@@ -1,9 +1,10 @@
 # Yolov5 for Rotated Rice Spike Object Detection
-![B_540_22](https://github.com/tinly00/RotatedRiceSpikeDet/assets/93133444/d993b04a-0781-41f9-85de-27a324c868bc)
 
-![pic_DJI_0639_0009_12__1__0___515](https://github.com/tinly00/RotatedRiceSpikeDet/assets/93133444/2594adce-5eb7-4543-8c50-7c366cf37acd)
+![效果对比之旋转框稻穗检测模型](https://github.com/tinly00/RotatedRiceSpikeDet/assets/93133444/42ed1765-8600-45a7-8afc-2f8480bc7a86)
 
-![results](https://github.com/tinly00/RotatedRiceSpikeDet/assets/93133444/6999d16a-8ce3-4e68-9155-40f54adb4d23)
+![results](https://github.com/tinly00/RotatedRiceSpikeDet/assets/93133444/fa3b6578-8959-4422-b1c0-22612ced742f)
+
+![PR_loss plot](https://github.com/tinly00/RotatedRiceSpikeDet/assets/93133444/a4bd4d44-3ea7-4a9a-b86d-3badc3fd69b5)
 
 
 

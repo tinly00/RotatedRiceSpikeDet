@@ -10,6 +10,11 @@
 
 The code for the implementation of “[Yolov5](https://github.com/ultralytics/yolov5) + [Circular Smooth Label](https://arxiv.org/abs/2003.05597v2)”. 
 
+Compared Model links:
+1. [yolov3](https://github.com/ultralytics/yolov3 )
+2. [std_yolov5](https://github.com/ultralytics/yolov5 )
+3. [FasterRCNN](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn )
+
 
 # Installation
 Please refer to [install.md](./docs/install.md) for installation and dataset preparation.
@@ -26,5 +31,6 @@ I have used utility functions from other wonderful open-source projects. Espeici
 
 * [ultralytics/yolov5](https://github.com/ultralytics/yolov5).
 * [hukaixuan19970627/yolov5_obb](https://github.com/hukaixuan19970627/yolov5_obb).
+* [WZMIAOMIAO](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing).
 
 
